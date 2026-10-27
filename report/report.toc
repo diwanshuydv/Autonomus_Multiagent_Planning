@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {paragraph}{Summary of results.}{3}{section*.2}%
+\contentsline {section}{\numberline {2}Problem Formulation}{3}{section.2}%
+\contentsline {paragraph}{Environment.}{3}{section*.4}%
+\contentsline {paragraph}{Agents and tasks.}{4}{section*.5}%
+\contentsline {paragraph}{Plans and conflicts.}{4}{section*.6}%
+\contentsline {paragraph}{Disruptions.}{4}{section*.7}%
+\contentsline {paragraph}{Objectives.}{4}{section*.9}%
+\contentsline {section}{\numberline {3}System Design}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Warehouse map}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Shared space-time reservation table}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Initial planning: prioritized Space-Time A*}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Detecting the disrupted robots}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Local plan repair}{5}{subsection.3.5}%
+\contentsline {paragraph}{Negotiation protocol.}{6}{section*.12}%
+\contentsline {paragraph}{When every local option fails.}{6}{section*.13}%
+\contentsline {paragraph}{Invariant.}{6}{section*.14}%
+\contentsline {subsection}{\numberline {3.6}Baseline: full replan}{7}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Experimental Setup}{7}{section.4}%
+\contentsline {paragraph}{Metrics.}{7}{section*.15}%
+\contentsline {section}{\numberline {5}Results}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Impact of a single disruption (Exp A)}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Scaling with the number of agents (Exp B)}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Scaling with dynamic-obstacle density (Exp C)}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Delay tolerance and communication radius (Exps D, E)}{11}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Simultaneous breakdowns (Exp F)}{11}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Bigger warehouse and longer task lists (Exps G, H)}{12}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Failure Settings: Where the Agents Do Not Complete Their Tasks}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Dense dynamic obstacles and large fleets: deadlock}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Permanent disruptions: tasks that can never be done}{14}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Summary of failure settings}{16}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Graphical Demonstration}{16}{section.7}%
+\contentsline {section}{\numberline {8}Discussion and Limitations}{18}{section.8}%
+\contentsline {section}{\numberline {9}Conclusion}{18}{section.9}%
+\contentsline {section}{\numberline {A}Code Structure and Reproduction}{18}{appendix.A}%

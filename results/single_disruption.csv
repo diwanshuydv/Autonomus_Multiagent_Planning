@@ -1,0 +1,901 @@
+n_agents,kind,seed,strategy,fired,t,n_disrupted,n_changed,n_collateral,levels,messages,cpu_ms,fallback,sum_of_costs,makespan,base_sum_of_costs,base_makespan,extra_steps,collisions,timeout
+10,blockage,0,repair,True,17,1,1,0,L1 detour,0,0.792,False,1356,164,1352,164,4,0,False
+10,blockage,0,replan,True,17,1,6,5,,0,127.568,False,1358,164,1352,164,6,0,False
+10,blockage,1,repair,True,16,1,1,0,L1 detour,0,1.975,False,1328,174,1326,172,2,0,False
+10,blockage,1,replan,True,16,1,3,2,,0,10.797,False,1328,174,1326,172,2,0,False
+10,blockage,2,repair,True,13,1,1,0,L1 detour,0,0.516,False,1259,152,1259,152,0,0,False
+10,blockage,2,replan,True,13,1,1,0,,0,50.168,False,1259,152,1259,152,0,0,False
+10,blockage,3,repair,True,28,2,2,0,L1 detour,0,110.672,False,1378,174,1378,174,0,0,False
+10,blockage,3,replan,True,28,2,2,0,,0,163.49,False,1378,174,1378,174,0,0,False
+10,blockage,4,repair,True,23,1,1,0,L1 detour,0,0.486,False,1339,163,1337,163,2,0,False
+10,blockage,4,replan,True,23,1,2,1,,0,90.885,False,1339,163,1337,163,2,0,False
+10,blockage,5,repair,True,27,1,1,0,L1 detour,0,2.08,False,1375,154,1371,154,4,0,False
+10,blockage,5,replan,True,27,1,2,1,,0,49.523,False,1371,154,1371,154,0,0,False
+10,blockage,6,repair,True,29,3,3,0,L1 detour,0,28.76,False,1388,176,1382,172,6,0,False
+10,blockage,6,replan,True,29,3,3,0,,0,151.307,False,1388,176,1382,172,6,0,False
+10,blockage,7,repair,True,17,1,1,0,L1 detour,0,15.091,False,1389,172,1389,172,0,0,False
+10,blockage,7,replan,True,17,1,1,0,,0,32.778,False,1389,172,1389,172,0,0,False
+10,blockage,8,repair,True,25,1,1,0,L1 detour,0,0.561,False,1397,171,1397,171,0,0,False
+10,blockage,8,replan,True,25,1,1,0,,0,74.633,False,1397,171,1397,171,0,0,False
+10,blockage,9,repair,True,27,2,2,0,L1 detour,0,15.135,False,1249,152,1248,152,1,0,False
+10,blockage,9,replan,True,27,2,2,0,,0,52.313,False,1250,152,1248,152,2,0,False
+10,blockage,10,repair,True,30,2,2,0,L0 wait;L1 detour,0,1.422,False,1473,165,1467,163,6,0,False
+10,blockage,10,replan,True,30,2,3,1,,0,12.487,False,1469,163,1467,163,2,0,False
+10,blockage,11,repair,True,23,1,1,0,L1 detour,0,1.392,False,1429,168,1427,168,2,0,False
+10,blockage,11,replan,True,23,1,3,2,,0,10.417,False,1429,168,1427,168,2,0,False
+10,blockage,12,repair,True,14,2,2,0,L1 detour,0,6.069,False,1381,187,1375,187,6,0,False
+10,blockage,12,replan,True,14,2,5,3,,0,43.568,False,1385,187,1375,187,10,0,False
+10,blockage,13,repair,True,16,1,1,0,L1 detour,0,14.882,False,1337,152,1337,152,0,0,False
+10,blockage,13,replan,True,16,1,1,0,,0,108.1,False,1337,152,1337,152,0,0,False
+10,blockage,14,repair,True,21,1,1,0,L2 negotiate,4,3.048,False,1396,181,1382,181,14,0,False
+10,blockage,14,replan,True,21,1,3,2,,0,13.738,False,1394,181,1382,181,12,0,False
+10,blockage,15,repair,True,20,1,1,0,L1 detour,0,0.731,False,1301,178,1301,178,0,0,False
+10,blockage,15,replan,True,20,1,1,0,,0,70.371,False,1301,178,1301,178,0,0,False
+10,blockage,16,repair,True,24,2,2,0,L1 detour;L2 negotiate,2,70.991,False,1506,201,1497,201,9,0,False
+10,blockage,16,replan,True,24,2,4,2,,0,249.727,False,1500,201,1497,201,3,0,False
+10,blockage,17,repair,True,14,1,1,0,L1 detour,0,0.793,False,1315,170,1313,170,2,0,False
+10,blockage,17,replan,True,14,1,2,1,,0,140.882,False,1315,170,1313,170,2,0,False
+10,blockage,18,repair,True,25,1,1,0,L1 detour,0,1.273,False,1337,156,1337,156,0,0,False
+10,blockage,18,replan,True,25,1,1,0,,0,8.465,False,1337,156,1337,156,0,0,False
+10,blockage,19,repair,True,13,1,1,0,L1 detour,0,0.844,False,1472,187,1466,187,6,0,False
+10,blockage,19,replan,True,13,1,10,9,,0,19.989,False,1477,189,1466,187,11,0,False
+10,blockage,20,repair,True,22,1,1,0,L1 detour,0,0.99,False,1494,198,1492,198,2,0,False
+10,blockage,20,replan,True,22,1,6,5,,0,234.85,False,1493,198,1492,198,1,0,False
+10,blockage,21,repair,True,19,1,1,0,L2 negotiate,1,3.021,False,1399,178,1385,178,14,0,False
+10,blockage,21,replan,True,19,1,2,1,,0,15.094,False,1399,178,1385,178,14,0,False
+10,blockage,22,repair,True,20,1,1,0,L1 detour,0,2.712,False,1367,171,1367,171,0,0,False
+10,blockage,22,replan,True,20,1,1,0,,0,59.104,False,1367,171,1367,171,0,0,False
+10,blockage,23,repair,True,14,1,1,0,L1 detour,0,1.105,False,1337,161,1333,157,4,0,False
+10,blockage,23,replan,True,14,1,3,2,,0,9.887,False,1336,159,1333,157,3,0,False
+10,blockage,24,repair,True,26,1,1,0,L1 detour,0,0.977,False,1327,169,1327,169,0,0,False
+10,blockage,24,replan,True,26,1,1,0,,0,10.325,False,1327,169,1327,169,0,0,False
+10,blockage,25,repair,True,27,2,2,0,L1 detour,0,3.163,False,1283,151,1276,151,7,0,False
+10,blockage,25,replan,True,27,2,6,4,,0,10.843,False,1284,151,1276,151,8,0,False
+10,blockage,26,repair,True,29,1,1,0,L1 detour,0,0.921,False,1461,178,1461,178,0,0,False
+10,blockage,26,replan,True,29,1,1,0,,0,5.909,False,1461,178,1461,178,0,0,False
+10,blockage,27,repair,True,11,1,1,0,L1 detour,0,1.201,False,1383,177,1383,177,0,0,False
+10,blockage,27,replan,True,11,1,1,0,,0,98.111,False,1383,177,1383,177,0,0,False
+10,blockage,28,repair,True,10,1,1,0,L1 detour,0,0.732,False,1323,181,1321,181,2,0,False
+10,blockage,28,replan,True,10,1,3,2,,0,61.359,False,1323,181,1321,181,2,0,False
+10,blockage,29,repair,True,22,2,2,0,L1 detour,0,32.205,False,1368,186,1361,186,7,0,False
+10,blockage,29,replan,True,22,2,5,3,,0,275.25,False,1362,186,1361,186,1,0,False
+20,blockage,0,repair,True,17,1,1,0,L2 negotiate,2,8.044,False,2738,176,2726,173,12,0,False
+20,blockage,0,replan,True,17,1,6,5,,0,218.341,False,2728,175,2726,173,2,0,False
+20,blockage,1,repair,True,16,3,3,0,L1 detour,0,7.359,False,2781,182,2776,182,5,0,False
+20,blockage,1,replan,True,16,3,5,2,,0,253.189,False,2780,182,2776,182,4,0,False
+20,blockage,2,repair,True,13,1,1,0,L1 detour,0,2.447,False,3079,218,3079,218,0,0,False
+20,blockage,2,replan,True,13,1,2,1,,0,250.309,False,3079,218,3079,218,0,0,False
+20,blockage,3,repair,True,28,1,1,0,L1 detour,0,1.462,False,2580,181,2578,181,2,0,False
+20,blockage,3,replan,True,28,1,10,9,,0,133.765,False,2585,181,2578,181,7,0,False
+20,blockage,4,repair,True,23,1,1,0,L1 detour,0,47.584,False,2943,192,2934,192,9,0,False
+20,blockage,4,replan,True,23,1,2,1,,0,1033.644,False,2945,192,2934,192,11,0,False
+20,blockage,5,repair,True,27,4,4,0,L1 detour,0,39.711,False,2619,189,2614,189,5,0,False
+20,blockage,5,replan,True,27,4,8,4,,0,164.624,False,2624,189,2614,189,10,0,False
+20,blockage,6,repair,True,29,1,1,0,L1 detour,0,0.658,False,2710,176,2710,176,0,0,False
+20,blockage,6,replan,True,29,1,1,0,,0,296.867,False,2710,176,2710,176,0,0,False
+20,blockage,7,repair,True,17,3,3,0,L1 detour,0,92.159,False,2716,198,2699,198,17,0,False
+20,blockage,7,replan,True,17,3,17,14,,0,376.75,False,2719,198,2699,198,20,0,False
+20,blockage,8,repair,True,25,2,2,0,L1 detour,0,2.592,False,2568,162,2552,162,16,0,False
+20,blockage,8,replan,True,25,2,9,7,,0,254.953,False,2560,162,2552,162,8,0,False
+20,blockage,9,repair,True,27,1,1,0,L1 detour,0,1.559,False,2695,172,2695,172,0,0,False
+20,blockage,9,replan,True,27,1,1,0,,0,354.365,False,2695,172,2695,172,0,0,False
+20,blockage,10,repair,True,30,2,2,0,L1 detour,0,2.426,False,2946,225,2937,225,9,0,False
+20,blockage,10,replan,True,30,2,8,6,,0,75.556,False,2945,225,2937,225,8,0,False
+20,blockage,11,repair,True,23,1,1,0,L1 detour,0,1.678,False,2773,167,2773,167,0,0,False
+20,blockage,11,replan,True,23,1,1,0,,0,156.294,False,2773,167,2773,167,0,0,False
+20,blockage,12,repair,True,14,1,1,0,L1 detour,0,51.594,False,2716,182,2715,182,1,0,False
+20,blockage,12,replan,True,14,1,5,4,,0,322.132,False,2716,182,2715,182,1,0,False
+20,blockage,13,repair,True,16,3,3,0,L1 detour,0,12.634,False,2653,163,2636,156,17,0,False
+20,blockage,13,replan,True,16,3,7,4,,0,240.53,False,2633,158,2636,156,-3,0,False
+20,blockage,14,repair,True,21,2,2,0,L1 detour;L2 negotiate,2,5.082,False,2893,219,2872,219,21,0,False
+20,blockage,14,replan,True,21,2,13,11,,0,633.484,False,2893,219,2872,219,21,0,False
+20,blockage,15,repair,True,20,1,1,0,L1 detour,0,0.578,False,2747,177,2747,177,0,0,False
+20,blockage,15,replan,True,20,1,1,0,,0,173.071,False,2747,177,2747,177,0,0,False
+20,blockage,16,repair,True,24,2,2,0,L1 detour;L2 negotiate,1,3.355,False,2731,174,2716,174,15,0,False
+20,blockage,16,replan,True,24,2,6,4,,0,216.483,False,2726,174,2716,174,10,0,False
+20,blockage,17,repair,True,14,1,1,0,L1 detour,0,41.432,False,2888,185,2888,185,0,0,False
+20,blockage,17,replan,True,14,1,1,0,,0,231.137,False,2888,185,2888,185,0,0,False
+20,blockage,18,repair,True,25,1,1,0,L1 detour,0,3.911,False,2674,164,2671,164,3,0,False
+20,blockage,18,replan,True,25,1,3,2,,0,236.928,False,2673,164,2671,164,2,0,False
+20,blockage,19,repair,True,13,1,1,0,L1 detour,0,1.107,False,2915,183,2915,183,0,0,False
+20,blockage,19,replan,True,13,1,1,0,,0,672.097,False,2915,183,2915,183,0,0,False
+20,blockage,20,repair,True,22,1,1,0,L1 detour,0,1.267,False,2789,203,2783,197,6,0,False
+20,blockage,20,replan,True,22,1,8,7,,0,427.962,False,2786,199,2783,197,3,0,False
+20,blockage,21,repair,True,19,1,1,0,L1 detour,0,82.37,False,2861,198,2861,198,0,0,False
+20,blockage,21,replan,True,19,1,1,0,,0,250.494,False,2861,198,2861,198,0,0,False
+20,blockage,22,repair,True,20,1,1,0,L1 detour,0,25.634,False,2800,174,2796,174,4,0,False
+20,blockage,22,replan,True,20,1,4,3,,0,268.908,False,2799,174,2796,174,3,0,False
+20,blockage,23,repair,True,14,2,2,0,L1 detour,0,16.783,False,2772,179,2764,179,8,0,False
+20,blockage,23,replan,True,14,2,3,1,,0,666.114,False,2764,179,2764,179,0,0,False
+20,blockage,24,repair,True,26,1,1,0,L1 detour,0,1.958,False,2731,174,2729,174,2,0,False
+20,blockage,24,replan,True,26,1,5,4,,0,316.83,False,2731,174,2729,174,2,0,False
+20,blockage,25,repair,True,27,2,2,0,L1 detour,0,2.311,False,2988,187,2978,187,10,0,False
+20,blockage,25,replan,True,27,2,11,9,,0,376.651,False,2987,187,2978,187,9,0,False
+20,blockage,26,repair,True,29,1,1,0,L1 detour,0,2.106,False,2674,189,2674,189,0,0,False
+20,blockage,26,replan,True,29,1,5,4,,0,260.983,False,2672,189,2674,189,-2,0,False
+20,blockage,27,repair,True,11,4,5,1,L1 detour;L2 negotiate;yield,4,66.277,False,2666,173,2646,173,20,0,False
+20,blockage,27,replan,True,11,4,15,11,,0,270.322,False,2658,174,2646,173,12,0,False
+20,blockage,28,repair,True,10,2,2,0,L1 detour;L2 negotiate,2,29.413,False,2811,203,2789,203,22,0,False
+20,blockage,28,replan,True,10,2,11,9,,0,203.574,False,2795,203,2789,203,6,0,False
+20,blockage,29,repair,True,22,2,2,0,L1 detour,0,8.994,False,2876,190,2871,190,5,0,False
+20,blockage,29,replan,True,22,2,2,0,,0,546.228,False,2876,190,2871,190,5,0,False
+30,blockage,0,repair,True,17,1,2,1,L2 negotiate;yield,4,3.815,False,4256,194,4251,194,5,0,False
+30,blockage,0,replan,True,17,1,8,7,,0,1169.137,False,4257,194,4251,194,6,0,False
+30,blockage,1,repair,True,16,6,6,0,L1 detour,0,82.346,False,4274,190,4257,190,17,0,False
+30,blockage,1,replan,True,16,6,13,7,,0,326.007,False,4284,190,4257,190,27,0,False
+30,blockage,2,repair,True,13,2,2,0,L1 detour,0,2.603,False,4112,198,4106,195,6,0,False
+30,blockage,2,replan,True,13,2,19,17,,0,1245.75,False,4111,197,4106,195,5,0,False
+30,blockage,3,repair,True,28,2,2,0,L2 negotiate;yield,6,5.188,False,4275,204,4261,204,14,0,False
+30,blockage,3,replan,True,28,2,16,14,,0,464.122,False,4267,204,4261,204,6,0,False
+30,blockage,4,repair,True,23,1,1,0,L1 detour,0,1.162,False,4316,182,4316,182,0,0,False
+30,blockage,4,replan,True,23,1,1,0,,0,498.888,False,4316,182,4316,182,0,0,False
+30,blockage,5,repair,True,27,4,4,0,L1 detour;L2 negotiate,3,62.833,False,4238,194,4210,194,28,0,False
+30,blockage,5,replan,True,27,4,22,18,,0,1089.09,False,4221,194,4210,194,11,0,False
+30,blockage,6,repair,True,29,1,1,0,L2 negotiate,2,5.633,False,4164,194,4147,177,17,0,False
+30,blockage,6,replan,True,29,1,2,1,,0,500.643,False,4160,190,4147,177,13,0,False
+30,blockage,7,repair,True,17,2,2,0,L1 detour,0,20.223,False,4167,186,4156,186,11,0,False
+30,blockage,7,replan,True,17,2,5,3,,0,148.928,False,4156,186,4156,186,0,0,False
+30,blockage,8,repair,True,25,2,2,0,L1 detour,0,9.782,False,3933,191,3933,191,0,0,False
+30,blockage,8,replan,True,25,2,2,0,,0,362.811,False,3933,191,3933,191,0,0,False
+30,blockage,9,repair,True,27,3,3,0,L1 detour,0,58.962,False,4118,193,4112,193,6,0,False
+30,blockage,9,replan,True,27,3,3,0,,0,522.128,False,4112,193,4112,193,0,0,False
+30,blockage,10,repair,True,30,4,4,0,L1 detour,0,184.906,False,4495,208,4474,208,21,0,False
+30,blockage,10,replan,True,30,4,11,7,,0,418.978,False,4476,208,4474,208,2,0,False
+30,blockage,11,repair,True,23,2,2,0,L1 detour;L2 negotiate,2,73.767,False,4152,182,4138,182,14,0,False
+30,blockage,11,replan,True,23,2,26,24,,0,488.924,False,4147,182,4138,182,9,0,False
+30,blockage,12,repair,True,14,2,2,0,L1 detour;L2 negotiate,1,42.79,False,4581,200,4562,200,19,0,False
+30,blockage,12,replan,True,14,2,10,8,,0,757.625,False,4556,200,4562,200,-6,0,False
+30,blockage,13,repair,True,16,1,1,0,L2 negotiate,3,3.362,False,3995,185,3984,185,11,0,False
+30,blockage,13,replan,True,16,1,10,9,,0,722.139,False,3996,185,3984,185,12,0,False
+30,blockage,14,repair,True,21,2,2,0,L1 detour,0,3.275,False,4110,194,4096,194,14,0,False
+30,blockage,14,replan,True,21,2,18,16,,0,409.685,False,4086,194,4096,194,-10,0,False
+30,blockage,15,repair,True,20,1,1,0,L1 detour,0,5.39,False,4354,182,4349,182,5,0,False
+30,blockage,15,replan,True,20,1,7,6,,0,518.383,False,4345,182,4349,182,-4,0,False
+30,blockage,16,repair,True,24,2,2,0,L1 detour,0,5.888,False,4208,204,4208,204,0,0,False
+30,blockage,16,replan,True,24,2,2,0,,0,427.705,False,4208,204,4208,204,0,0,False
+30,blockage,17,repair,True,14,2,2,0,L1 detour,0,2.403,False,4111,173,4103,173,8,0,False
+30,blockage,17,replan,True,14,2,26,24,,0,300.408,False,4093,173,4103,173,-10,0,False
+30,blockage,18,repair,True,25,3,3,0,L1 detour;L2 negotiate,7,6.212,False,4099,172,4078,172,21,0,False
+30,blockage,18,replan,True,25,3,17,14,,0,90.388,False,4089,172,4078,172,11,0,False
+30,blockage,19,repair,True,13,3,3,0,L1 detour,0,73.961,False,4284,182,4276,182,8,0,False
+30,blockage,19,replan,True,13,3,16,13,,0,414.913,False,4290,182,4276,182,14,0,False
+30,blockage,20,repair,True,22,3,3,0,L1 detour;L2 negotiate,5,44.232,False,4091,174,4070,174,21,0,False
+30,blockage,20,replan,True,22,3,13,10,,0,890.921,False,4071,174,4070,174,1,0,False
+30,blockage,21,repair,True,19,6,6,0,L1 detour;L2 negotiate,4,181.804,False,4201,178,4160,178,41,0,False
+30,blockage,21,replan,True,19,6,16,10,,0,800.149,False,4166,178,4160,178,6,0,False
+30,blockage,22,repair,True,20,1,1,0,L2 negotiate,1,5.346,False,4195,185,4176,182,19,0,False
+30,blockage,22,replan,True,20,1,16,15,,0,488.977,False,4193,181,4176,182,17,0,False
+30,blockage,23,repair,True,14,1,1,0,L1 detour,0,1.001,False,4126,171,4125,171,1,0,False
+30,blockage,23,replan,True,14,1,6,5,,0,247.754,False,4127,171,4125,171,2,0,False
+30,blockage,24,repair,True,26,1,1,0,L1 detour,0,24.737,False,4119,208,4119,208,0,0,False
+30,blockage,24,replan,True,26,1,1,0,,0,709.499,False,4119,208,4119,208,0,0,False
+30,blockage,25,repair,True,27,2,2,0,L1 detour,0,102.947,False,4099,207,4095,207,4,0,False
+30,blockage,25,replan,True,27,2,7,5,,0,1216.719,False,4100,207,4095,207,5,0,False
+30,blockage,26,repair,True,29,2,2,0,L1 detour;L2 negotiate,1,16.892,False,4211,197,4197,197,14,0,False
+30,blockage,26,replan,True,29,2,20,18,,0,323.271,False,4216,197,4197,197,19,0,False
+30,blockage,27,repair,True,11,3,3,0,L1 detour,0,6.61,False,4193,205,4178,205,15,0,False
+30,blockage,27,replan,True,11,3,14,11,,0,313.157,False,4187,205,4178,205,9,0,False
+30,blockage,28,repair,True,10,3,3,0,L1 detour,0,18.063,False,4215,184,4196,184,19,0,False
+30,blockage,28,replan,True,10,3,19,16,,0,250.06,False,4204,184,4196,184,8,0,False
+30,blockage,29,repair,True,22,1,1,0,L1 detour,0,0.865,False,4025,175,4019,175,6,0,False
+30,blockage,29,replan,True,22,1,15,14,,0,409.292,False,4032,175,4019,175,13,0,False
+40,blockage,0,repair,True,17,1,1,0,L1 detour,0,7.658,False,5717,193,5709,185,8,0,False
+40,blockage,0,replan,True,17,1,14,13,,0,494.838,False,5717,189,5709,185,8,0,False
+40,blockage,1,repair,True,16,1,1,0,L1 detour,0,34.016,False,5485,187,5485,187,0,0,False
+40,blockage,1,replan,True,16,1,40,39,,0,695.1,False,5484,193,5485,187,-1,0,False
+40,blockage,2,repair,True,13,4,4,0,L1 detour;L2 negotiate,5,20.529,False,5818,205,5779,205,39,0,False
+40,blockage,2,replan,True,13,4,34,30,,0,452.465,False,5806,207,5779,205,27,0,False
+40,blockage,3,repair,True,28,2,2,0,L1 detour;L2 negotiate,3,15.068,False,5700,183,5678,183,22,0,False
+40,blockage,3,replan,True,28,2,19,17,,0,799.431,False,5688,183,5678,183,10,0,False
+40,blockage,4,repair,True,23,2,2,0,L1 detour;L2 negotiate,1,10.349,False,5372,195,5351,195,21,0,False
+40,blockage,4,replan,True,23,2,24,22,,0,699.43,False,5357,196,5351,195,6,0,False
+40,blockage,5,repair,True,27,2,3,1,L1 detour;L2 negotiate;yield,7,93.972,False,5778,190,5767,190,11,0,False
+40,blockage,5,replan,True,27,2,8,6,,0,898.735,False,5775,190,5767,190,8,0,False
+40,blockage,6,repair,True,29,1,1,0,L1 detour,0,2.21,False,5896,202,5891,202,5,0,False
+40,blockage,6,replan,True,29,1,22,21,,0,762.326,False,5907,202,5891,202,16,0,False
+40,blockage,7,repair,True,17,4,4,0,L1 detour;L2 negotiate,3,22.578,False,5591,203,5549,203,42,0,False
+40,blockage,7,replan,True,17,4,37,33,,0,542.573,False,5572,200,5549,203,23,0,False
+40,blockage,8,repair,True,25,2,2,0,L1 detour,0,85.787,False,5685,194,5680,193,5,0,False
+40,blockage,8,replan,True,25,2,3,1,,0,1661.027,False,5680,193,5680,193,0,0,False
+40,blockage,9,repair,True,27,1,1,0,L1 detour,0,134.495,False,5898,234,5898,234,0,0,False
+40,blockage,9,replan,True,27,1,4,3,,0,711.744,False,5899,235,5898,234,1,0,False
+40,blockage,10,repair,True,30,2,2,0,L1 detour,0,3.747,False,5886,202,5878,202,8,0,False
+40,blockage,10,replan,True,30,2,20,18,,0,653.721,False,5880,204,5878,202,2,0,False
+40,blockage,11,repair,True,23,2,2,0,L1 detour;L2 negotiate,1,7.028,False,5869,204,5854,204,15,0,False
+40,blockage,11,replan,True,23,2,20,18,,0,848.964,False,5843,204,5854,204,-11,0,False
+40,blockage,12,repair,True,14,1,1,0,L1 detour,0,139.692,False,5882,201,5882,201,0,0,False
+40,blockage,12,replan,True,14,1,29,28,,0,1293.201,False,5904,200,5882,201,22,0,False
+40,blockage,13,repair,True,16,2,2,0,L1 detour;L2 negotiate,5,9.657,False,5524,187,5503,187,21,0,False
+40,blockage,13,replan,True,16,2,30,28,,0,902.713,False,5502,187,5503,187,-1,0,False
+40,blockage,14,repair,True,21,3,3,0,L1 detour,0,144.881,False,5835,182,5832,182,3,0,False
+40,blockage,14,replan,True,21,3,23,20,,0,1172.638,False,5842,182,5832,182,10,0,False
+40,blockage,15,repair,True,20,5,5,0,L1 detour;L2 negotiate,3,78.218,False,5783,198,5743,198,40,0,False
+40,blockage,15,replan,True,20,5,40,35,,0,1879.83,False,5779,193,5743,198,36,0,False
+40,blockage,16,repair,True,24,2,2,0,L1 detour,0,18.527,False,5706,195,5706,195,0,0,False
+40,blockage,16,replan,True,24,2,2,0,,0,574.625,False,5706,195,5706,195,0,0,False
+40,blockage,17,repair,True,14,1,1,0,L1 detour,0,1.18,False,5457,198,5457,198,0,0,False
+40,blockage,17,replan,True,14,1,40,39,,0,1204.15,False,5486,203,5457,198,29,0,False
+40,blockage,18,repair,True,25,4,4,0,L1 detour,0,89.548,False,5516,186,5495,186,21,0,False
+40,blockage,18,replan,True,25,4,25,21,,0,1016.124,False,5518,186,5495,186,23,0,False
+40,blockage,19,repair,True,13,3,3,0,L1 detour,0,151.544,False,5527,182,5516,182,11,0,False
+40,blockage,19,replan,True,13,3,17,14,,0,1061.014,False,5502,182,5516,182,-14,0,False
+40,blockage,20,repair,True,22,1,1,0,L2 negotiate,1,5.344,False,5680,202,5669,202,11,0,False
+40,blockage,20,replan,True,22,1,17,16,,0,498.78,False,5669,202,5669,202,0,0,False
+40,blockage,21,repair,True,19,6,6,0,L1 detour;L2 negotiate,7,63.04,False,5757,197,5714,197,43,0,False
+40,blockage,21,replan,True,19,6,27,21,,0,712.454,False,5725,199,5714,197,11,0,False
+40,blockage,22,repair,True,20,4,4,0,L1 detour;L2 negotiate,5,75.19,False,5541,197,5495,180,46,0,False
+40,blockage,22,replan,True,20,4,16,12,,0,714.88,False,5506,191,5495,180,11,0,False
+40,blockage,23,repair,True,14,2,2,0,L1 detour;L2 negotiate,6,15.386,False,5586,190,5560,174,26,0,False
+40,blockage,23,replan,True,14,2,24,22,,0,1345.32,False,5567,174,5560,174,7,0,False
+40,blockage,24,repair,True,26,1,1,0,L1 detour,0,1.053,False,5651,183,5647,183,4,0,False
+40,blockage,24,replan,True,26,1,6,5,,0,888.325,False,5650,183,5647,183,3,0,False
+40,blockage,25,repair,True,27,2,2,0,L1 detour,0,3.973,False,5740,197,5732,197,8,0,False
+40,blockage,25,replan,True,27,2,31,29,,0,1214.439,False,5744,198,5732,197,12,0,False
+40,blockage,26,repair,True,29,1,1,0,L1 detour,0,4.569,False,5765,188,5759,188,6,0,False
+40,blockage,26,replan,True,29,1,11,10,,0,996.667,False,5762,188,5759,188,3,0,False
+40,blockage,27,repair,True,11,3,3,0,L1 detour;L2 negotiate,6,8.608,False,5593,184,5575,184,18,0,False
+40,blockage,27,replan,True,11,3,39,36,,0,1854.989,False,5544,181,5575,184,-31,0,False
+40,blockage,28,repair,True,10,2,2,0,L1 detour,0,38.574,False,6039,235,6028,235,11,0,False
+40,blockage,28,replan,True,10,2,30,28,,0,1322.965,False,6048,235,6028,235,20,0,False
+40,blockage,29,repair,True,22,1,1,0,L1 detour,0,19.766,False,5761,196,5761,196,0,0,False
+40,blockage,29,replan,True,22,1,1,0,,0,943.77,False,5761,196,5761,196,0,0,False
+50,blockage,0,repair,True,17,2,2,0,L1 detour;L2 negotiate,4,188.37,False,7001,207,6980,207,21,0,False
+50,blockage,0,replan,True,17,2,11,9,,0,894.861,False,6988,207,6980,207,8,0,False
+50,blockage,1,repair,True,16,1,1,0,L1 detour,0,2.219,False,7208,196,7207,196,1,0,False
+50,blockage,1,replan,True,16,1,5,4,,0,1088.628,False,7215,196,7207,196,8,0,False
+50,blockage,2,repair,True,13,3,3,0,L1 detour,0,41.065,False,7394,208,7352,208,42,0,False
+50,blockage,2,replan,True,13,3,50,47,,0,1559.518,False,7353,215,7352,208,1,0,False
+50,blockage,3,repair,True,28,2,2,0,L2 negotiate,6,36.357,False,7455,209,7436,209,19,0,False
+50,blockage,3,replan,True,28,2,25,23,,0,1179.224,False,7433,209,7436,209,-3,0,False
+50,blockage,4,repair,True,23,1,1,0,L1 detour,0,2.808,False,7018,186,7018,186,0,0,False
+50,blockage,4,replan,True,23,1,5,4,,0,712.79,False,7018,186,7018,186,0,0,False
+50,blockage,5,repair,True,27,3,3,0,L1 detour;L2 negotiate;yield,8,57.623,False,7213,210,7194,210,19,0,False
+50,blockage,5,replan,True,27,3,27,24,,0,1598.856,False,7179,210,7194,210,-15,0,False
+50,blockage,6,repair,True,29,1,1,0,L1 detour,0,13.333,False,6904,173,6895,173,9,0,False
+50,blockage,6,replan,True,29,1,21,20,,0,833.909,False,6887,173,6895,173,-8,0,False
+50,blockage,7,repair,True,17,3,4,1,L1 detour;L2 negotiate;yield,5,20.386,False,7370,202,7352,190,18,0,False
+50,blockage,7,replan,True,17,3,24,21,,0,659.878,False,7374,197,7352,190,22,0,False
+50,blockage,8,repair,True,25,3,3,0,L1 detour;L2 negotiate,2,73.525,False,7177,196,7154,196,23,0,False
+50,blockage,8,replan,True,25,3,33,30,,0,1958.126,False,7187,196,7154,196,33,0,False
+50,blockage,9,repair,True,27,1,1,0,L2 negotiate,3,13.555,False,6902,188,6874,185,28,0,False
+50,blockage,9,replan,True,27,1,35,34,,0,551.67,False,6867,177,6874,185,-7,0,False
+50,blockage,10,repair,True,30,1,1,0,L2 negotiate,2,9.658,False,7574,198,7562,198,12,0,False
+50,blockage,10,replan,True,30,1,27,26,,0,650.275,False,7551,198,7562,198,-11,0,False
+50,blockage,11,repair,True,23,1,1,0,L2 negotiate,5,15.954,False,7219,210,7203,210,16,0,False
+50,blockage,11,replan,True,23,1,45,44,,0,2478.415,False,7214,211,7203,210,11,0,False
+50,blockage,12,repair,True,14,1,1,0,L1 detour,0,25.077,False,7294,204,7294,204,0,0,False
+50,blockage,12,replan,True,14,1,1,0,,0,821.724,False,7294,204,7294,204,0,0,False
+50,blockage,13,repair,True,16,2,2,0,L1 detour;L2 negotiate,5,99.148,False,7174,209,7164,209,10,0,False
+50,blockage,13,replan,True,16,2,50,48,,0,1768.153,False,7181,211,7164,209,17,0,False
+50,blockage,14,repair,True,21,2,2,0,L1 detour,0,96.578,False,7004,202,6994,202,10,0,False
+50,blockage,14,replan,True,21,2,29,27,,0,1822.53,False,7021,202,6994,202,27,0,False
+50,blockage,15,repair,True,20,4,4,0,L1 detour,0,207.71,False,7152,213,7140,213,12,0,False
+50,blockage,15,replan,True,20,4,24,20,,0,2426.078,False,7151,213,7140,213,11,0,False
+50,blockage,16,repair,True,24,2,2,0,L1 detour;L2 negotiate,11,21.7,False,7073,205,7045,189,28,0,False
+50,blockage,16,replan,True,24,2,27,25,,0,1889.612,False,7061,193,7045,189,16,0,False
+50,blockage,17,repair,True,14,3,4,1,L1 detour;L2 negotiate;yield,11,66.667,False,7123,200,7083,200,40,0,False
+50,blockage,17,replan,True,14,3,50,47,,0,5519.035,False,7090,188,7083,200,7,0,False
+50,blockage,18,repair,True,25,3,4,1,L1 detour;L2 negotiate;yield,8,30.462,False,7073,201,7052,201,21,0,False
+50,blockage,18,replan,True,25,3,30,27,,0,957.219,False,7081,203,7052,201,29,0,False
+50,blockage,19,repair,True,13,3,3,0,L1 detour,0,52.022,False,7044,206,7028,206,16,0,False
+50,blockage,19,replan,True,13,3,25,22,,0,675.784,False,7050,206,7028,206,22,0,False
+50,blockage,20,repair,True,22,3,3,0,L1 detour;L2 negotiate;yield,8,30.366,False,7294,217,7266,217,28,0,False
+50,blockage,20,replan,True,22,3,49,46,,0,1322.103,False,7275,216,7266,217,9,0,False
+50,blockage,21,repair,True,19,1,1,0,L1 detour,0,7.561,False,7144,224,7144,224,0,0,False
+50,blockage,21,replan,True,19,1,1,0,,0,1488.98,False,7144,224,7144,224,0,0,False
+50,blockage,22,repair,True,20,2,2,0,L1 detour,0,14.895,False,7484,208,7461,208,23,0,False
+50,blockage,22,replan,True,20,2,24,22,,0,992.33,False,7462,207,7461,208,1,0,False
+50,blockage,23,repair,True,14,5,5,0,L1 detour;L2 negotiate,17,60.811,False,7185,202,7121,202,64,0,False
+50,blockage,23,replan,True,14,5,50,45,,0,1439.552,False,7121,198,7121,202,0,0,False
+50,blockage,24,repair,True,26,2,2,0,L1 detour,0,125.124,False,7080,202,7047,202,33,0,False
+50,blockage,24,replan,True,26,2,32,30,,0,2171.55,False,7059,201,7047,202,12,0,False
+50,blockage,25,repair,True,27,3,3,0,L2 negotiate;yield,12,29.443,False,6639,194,6604,194,35,0,False
+50,blockage,25,replan,True,27,3,50,47,,0,1204.352,False,6665,191,6604,194,61,0,False
+50,blockage,26,repair,True,29,4,4,0,L1 detour;L2 negotiate,6,40.987,False,7105,222,7068,222,37,0,False
+50,blockage,26,replan,True,29,4,25,21,,0,1339.829,False,7081,222,7068,222,13,0,False
+50,blockage,27,repair,True,11,3,4,1,L1 detour;L2 negotiate;yield,13,36.903,False,7350,197,7287,197,63,0,False
+50,blockage,27,replan,True,11,3,35,32,,0,1218.848,False,7301,198,7287,197,14,0,False
+50,blockage,28,repair,True,10,2,2,0,L1 detour,0,6.685,False,6996,181,6996,181,0,0,False
+50,blockage,28,replan,True,10,2,2,0,,0,1036.757,False,6996,181,6996,181,0,0,False
+50,blockage,29,repair,True,22,1,1,0,L1 detour,0,80.077,False,7592,205,7592,205,0,0,False
+50,blockage,29,replan,True,22,1,1,0,,0,1030.89,False,7592,205,7592,205,0,0,False
+10,breakdown,0,repair,True,24,1,1,0,L2 negotiate,2,2.53,False,1373,165,1352,164,21,0,False
+10,breakdown,0,replan,True,24,1,8,7,,0,236.032,False,1369,164,1352,164,17,0,False
+10,breakdown,1,repair,True,24,3,3,0,L1 detour;L2 negotiate,1,2.213,False,1350,172,1326,172,24,0,False
+10,breakdown,1,replan,True,24,3,9,6,,0,5.777,False,1348,172,1326,172,22,0,False
+10,breakdown,2,repair,True,20,1,1,0,L2 negotiate,4,1.175,False,1279,152,1259,152,20,0,False
+10,breakdown,2,replan,True,20,1,6,5,,0,85.093,False,1279,152,1259,152,20,0,False
+10,breakdown,3,repair,True,14,3,3,0,L1 detour,0,82.576,False,1401,174,1378,174,23,0,False
+10,breakdown,3,replan,True,14,3,7,4,,0,59.76,False,1401,174,1378,174,23,0,False
+10,breakdown,4,repair,True,25,1,1,0,L2 negotiate,3,1.431,False,1353,179,1337,163,16,0,False
+10,breakdown,4,replan,True,25,1,6,5,,0,139.805,False,1356,178,1337,163,19,0,False
+10,breakdown,5,repair,True,13,1,1,0,L2 negotiate,1,3.181,False,1384,167,1371,154,13,0,False
+10,breakdown,5,replan,True,13,1,6,5,,0,44.281,False,1383,166,1371,154,12,0,False
+10,breakdown,6,repair,True,29,2,2,0,L2 negotiate;yield,3,58.193,False,1402,174,1382,172,20,0,False
+10,breakdown,6,replan,True,29,2,5,3,,0,144.846,False,1401,174,1382,172,19,0,False
+10,breakdown,7,repair,True,25,2,2,0,L1 detour;L2 negotiate,1,17.294,False,1399,172,1389,172,10,0,False
+10,breakdown,7,replan,True,25,2,4,2,,0,28.835,False,1397,173,1389,172,8,0,False
+10,breakdown,8,repair,True,20,1,1,0,L2 negotiate,2,4.202,False,1416,187,1397,171,19,0,False
+10,breakdown,8,replan,True,20,1,4,3,,0,78.27,False,1414,184,1397,171,17,0,False
+10,breakdown,9,repair,True,19,1,1,0,L2 negotiate,1,1.05,False,1263,152,1248,152,15,0,False
+10,breakdown,9,replan,True,19,1,4,3,,0,61.752,False,1263,152,1248,152,15,0,False
+10,breakdown,10,repair,True,15,1,1,0,L2 negotiate,2,1.854,False,1477,165,1467,163,10,0,False
+10,breakdown,10,replan,True,15,1,7,6,,0,123.51,False,1479,165,1467,163,12,0,False
+10,breakdown,11,repair,True,21,2,2,0,L1 detour,0,1.434,False,1444,168,1427,168,17,0,False
+10,breakdown,11,replan,True,21,2,7,5,,0,6.38,False,1441,168,1427,168,14,0,False
+10,breakdown,12,repair,True,25,1,1,0,L2 negotiate,3,1.66,False,1394,187,1375,187,19,0,False
+10,breakdown,12,replan,True,25,1,6,5,,0,47.593,False,1393,189,1375,187,18,0,False
+10,breakdown,13,repair,True,19,1,1,0,L2 negotiate,1,3.289,False,1350,165,1337,152,13,0,False
+10,breakdown,13,replan,True,19,1,5,4,,0,101.441,False,1349,162,1337,152,12,0,False
+10,breakdown,14,repair,True,14,1,1,0,L2 negotiate,1,1.535,False,1392,181,1382,181,10,0,False
+10,breakdown,14,replan,True,14,1,6,5,,0,175.605,False,1390,181,1382,181,8,0,False
+10,breakdown,15,repair,True,12,2,2,0,L1 detour;L2 negotiate,6,11.967,False,1315,178,1301,178,14,0,False
+10,breakdown,15,replan,True,12,2,7,5,,0,101.793,False,1315,178,1301,178,14,0,False
+10,breakdown,16,repair,True,14,1,1,0,L1 detour,0,71.015,False,1511,201,1497,201,14,0,False
+10,breakdown,16,replan,True,14,1,4,3,,0,48.867,False,1509,201,1497,201,12,0,False
+10,breakdown,17,repair,True,16,1,1,0,L2 negotiate,2,1.668,False,1333,170,1313,170,20,0,False
+10,breakdown,17,replan,True,16,1,6,5,,0,245.777,False,1333,170,1313,170,20,0,False
+10,breakdown,18,repair,True,14,1,1,0,L2 negotiate,1,2.021,False,1353,156,1337,156,16,0,False
+10,breakdown,18,replan,True,14,1,4,3,,0,9.328,False,1350,156,1337,156,13,0,False
+10,breakdown,19,repair,True,13,1,1,0,L2 negotiate,3,1.581,False,1488,187,1466,187,22,0,False
+10,breakdown,19,replan,True,13,1,6,5,,0,97.128,False,1489,187,1466,187,23,0,False
+10,breakdown,20,repair,True,11,3,3,0,L1 detour,0,127.394,False,1506,198,1492,198,14,0,False
+10,breakdown,20,replan,True,11,3,8,5,,0,145.093,False,1504,198,1492,198,12,0,False
+10,breakdown,21,repair,True,10,1,1,0,L2 negotiate,3,1.708,False,1408,178,1385,178,23,0,False
+10,breakdown,21,replan,True,10,1,5,4,,0,50.325,False,1406,178,1385,178,21,0,False
+10,breakdown,22,repair,True,14,1,1,0,L2 negotiate,1,1.669,False,1385,171,1367,171,18,0,False
+10,breakdown,22,replan,True,14,1,10,9,,0,96.854,False,1375,169,1367,171,8,0,False
+10,breakdown,23,repair,True,29,1,1,0,L2 negotiate,1,0.898,False,1344,157,1333,157,11,0,False
+10,breakdown,23,replan,True,29,1,4,3,,0,13.969,False,1343,157,1333,157,10,0,False
+10,breakdown,24,repair,True,21,1,1,0,L2 negotiate,4,0.969,False,1338,169,1327,169,11,0,False
+10,breakdown,24,replan,True,21,1,6,5,,0,6.338,False,1338,169,1327,169,11,0,False
+10,breakdown,25,repair,True,23,3,3,0,L1 detour;L2 negotiate,3,5.496,False,1300,160,1276,151,24,0,False
+10,breakdown,25,replan,True,23,3,8,5,,0,174.728,False,1295,159,1276,151,19,0,False
+10,breakdown,26,repair,True,10,1,1,0,L2 negotiate,1,2.855,False,1475,192,1461,178,14,0,False
+10,breakdown,26,replan,True,10,1,6,5,,0,166.833,False,1476,192,1461,178,15,0,False
+10,breakdown,27,repair,True,13,1,1,0,L2 negotiate,2,5.145,False,1394,177,1383,177,11,0,False
+10,breakdown,27,replan,True,13,1,9,8,,0,132.518,False,1394,177,1383,177,11,0,False
+10,breakdown,28,repair,True,17,2,2,0,L1 detour;L2 negotiate,5,1.682,False,1337,181,1321,181,16,0,False
+10,breakdown,28,replan,True,17,2,7,5,,0,158.709,False,1337,181,1321,181,16,0,False
+10,breakdown,29,repair,True,30,1,1,0,L1 detour,0,17.005,False,1373,186,1361,186,12,0,False
+10,breakdown,29,replan,True,30,1,8,7,,0,243.027,False,1372,186,1361,186,11,0,False
+20,breakdown,0,repair,True,24,2,2,0,L1 detour;L2 negotiate,7,2.433,False,2744,175,2726,173,18,0,False
+20,breakdown,0,replan,True,24,2,13,11,,0,240.155,False,2742,175,2726,173,16,0,False
+20,breakdown,1,repair,True,24,2,2,0,L1 detour;L2 negotiate,3,7.917,False,2803,182,2776,182,27,0,False
+20,breakdown,1,replan,True,24,2,16,14,,0,391.965,False,2794,182,2776,182,18,0,False
+20,breakdown,2,repair,True,20,1,1,0,L2 negotiate,2,4.118,False,3106,218,3079,218,27,0,False
+20,breakdown,2,replan,True,20,1,15,14,,0,276.808,False,3098,218,3079,218,19,0,False
+20,breakdown,3,repair,True,14,3,3,0,L1 detour;L2 negotiate,3,4.026,False,2602,181,2578,181,24,0,False
+20,breakdown,3,replan,True,14,3,16,13,,0,362.451,False,2588,181,2578,181,10,0,False
+20,breakdown,4,repair,True,25,3,3,0,L1 detour;L2 negotiate,3,193.147,False,2951,192,2934,192,17,0,False
+20,breakdown,4,replan,True,25,3,18,15,,0,1065.887,False,2965,191,2934,192,31,0,False
+20,breakdown,5,repair,True,13,3,3,0,L1 detour;L2 negotiate,3,7.867,False,2630,189,2614,189,16,0,False
+20,breakdown,5,replan,True,13,3,11,8,,0,208.546,False,2627,192,2614,189,13,0,False
+20,breakdown,6,repair,True,29,2,2,0,L1 detour,0,3.727,False,2731,176,2710,176,21,0,False
+20,breakdown,6,replan,True,29,2,16,14,,0,252.073,False,2725,177,2710,176,15,0,False
+20,breakdown,7,repair,True,25,2,2,0,L1 detour;L2 negotiate,2,2.732,False,2712,198,2699,198,13,0,False
+20,breakdown,7,replan,True,25,2,12,10,,0,434.19,False,2706,198,2699,198,7,0,False
+20,breakdown,8,repair,True,20,3,3,0,L1 detour;L2 negotiate,3,7.754,False,2576,162,2552,162,24,0,False
+20,breakdown,8,replan,True,20,3,14,11,,0,308.771,False,2568,162,2552,162,16,0,False
+20,breakdown,9,repair,True,19,1,1,0,L1 detour,0,110.553,False,2710,172,2695,172,15,0,False
+20,breakdown,9,replan,True,19,1,6,5,,0,215.972,False,2709,172,2695,172,14,0,False
+20,breakdown,10,repair,True,15,1,1,0,L2 negotiate,4,2.97,False,2946,225,2937,225,9,0,False
+20,breakdown,10,replan,True,15,1,15,14,,0,233.255,False,2952,225,2937,225,15,0,False
+20,breakdown,11,repair,True,21,4,4,0,L1 detour,0,5.185,False,2795,167,2773,167,22,0,False
+20,breakdown,11,replan,True,21,4,18,14,,0,189.93,False,2790,170,2773,167,17,0,False
+20,breakdown,12,repair,True,25,1,1,0,L1 detour,0,1.785,False,2736,182,2715,182,21,0,False
+20,breakdown,12,replan,True,25,1,17,16,,0,357.804,False,2726,182,2715,182,11,0,False
+20,breakdown,13,repair,True,19,1,1,0,L2 negotiate,3,1.245,False,2648,156,2636,156,12,0,False
+20,breakdown,13,replan,True,19,1,13,12,,0,254.212,False,2634,156,2636,156,-2,0,False
+20,breakdown,14,repair,True,14,1,1,0,L1 detour,0,6.293,False,2887,219,2872,219,15,0,False
+20,breakdown,14,replan,True,14,1,15,14,,0,594.568,False,2881,219,2872,219,9,0,False
+20,breakdown,15,repair,True,12,2,2,0,L1 detour;L2 negotiate,1,3.155,False,2771,177,2747,177,24,0,False
+20,breakdown,15,replan,True,12,2,10,8,,0,201.884,False,2750,177,2747,177,3,0,False
+20,breakdown,16,repair,True,14,2,2,0,L1 detour;L2 negotiate,3,43.614,False,2730,174,2716,174,14,0,False
+20,breakdown,16,replan,True,14,2,12,10,,0,374.231,False,2730,176,2716,174,14,0,False
+20,breakdown,17,repair,True,16,1,1,0,L1 detour,0,4.582,False,2913,185,2888,185,25,0,False
+20,breakdown,17,replan,True,16,1,14,13,,0,216.845,False,2912,185,2888,185,24,0,False
+20,breakdown,18,repair,True,14,2,2,0,L1 detour,0,29.785,False,2695,164,2671,164,24,0,False
+20,breakdown,18,replan,True,14,2,14,12,,0,179.255,False,2691,161,2671,164,20,0,False
+20,breakdown,19,repair,True,13,5,5,0,L1 detour,0,170.014,False,2952,188,2915,183,37,0,False
+20,breakdown,19,replan,True,13,5,18,13,,0,658.49,False,2937,185,2915,183,22,0,False
+20,breakdown,20,repair,True,11,4,4,0,L1 detour,0,9.675,False,2812,197,2783,197,29,0,False
+20,breakdown,20,replan,True,11,4,17,13,,0,414.81,False,2806,197,2783,197,23,0,False
+20,breakdown,21,repair,True,10,5,5,0,L1 detour;L2 negotiate;yield,9,21.46,False,2900,199,2861,198,39,0,False
+20,breakdown,21,replan,True,10,5,11,6,,0,188.381,False,2901,203,2861,198,40,0,False
+20,breakdown,22,repair,True,14,3,3,0,L1 detour;L2 negotiate;yield,7,44.605,False,2835,174,2796,174,39,0,False
+20,breakdown,22,replan,True,14,3,11,8,,0,326.978,False,2813,176,2796,174,17,0,False
+20,breakdown,23,repair,True,29,1,1,0,L2 negotiate,6,7.204,False,2778,179,2764,179,14,0,False
+20,breakdown,23,replan,True,29,1,15,14,,0,738.098,False,2774,179,2764,179,10,0,False
+20,breakdown,24,repair,True,21,2,2,0,L1 detour;L2 negotiate,2,7.229,False,2749,174,2729,174,20,0,False
+20,breakdown,24,replan,True,21,2,19,17,,0,382.159,False,2746,174,2729,174,17,0,False
+20,breakdown,25,repair,True,23,1,1,0,L2 negotiate,7,1.639,False,2995,187,2978,187,17,0,False
+20,breakdown,25,replan,True,23,1,10,9,,0,404.75,False,2996,187,2978,187,18,0,False
+20,breakdown,26,repair,True,10,2,2,0,L1 detour,0,45.315,False,2691,189,2674,189,17,0,False
+20,breakdown,26,replan,True,10,2,15,13,,0,198.061,False,2686,189,2674,189,12,0,False
+20,breakdown,27,repair,True,13,2,2,0,L1 detour;L2 negotiate,1,2.426,False,2667,173,2646,173,21,0,False
+20,breakdown,27,replan,True,13,2,15,13,,0,249.53,False,2662,173,2646,173,16,0,False
+20,breakdown,28,repair,True,17,3,3,0,L1 detour;L2 negotiate;yield,6,12.335,False,2823,203,2789,203,34,0,False
+20,breakdown,28,replan,True,17,3,10,7,,0,267.076,False,2805,203,2789,203,16,0,False
+20,breakdown,29,repair,True,30,2,2,0,L1 detour;L2 negotiate,2,7.916,False,2885,201,2871,190,14,0,False
+20,breakdown,29,replan,True,30,2,9,7,,0,697.014,False,2882,197,2871,190,11,0,False
+30,breakdown,0,repair,True,24,1,1,0,L2 negotiate,2,3.493,False,4278,194,4251,194,27,0,False
+30,breakdown,0,replan,True,24,1,15,14,,0,1038.491,False,4269,194,4251,194,18,0,False
+30,breakdown,1,repair,True,24,3,3,0,L1 detour;L2 negotiate,3,31.392,False,4279,197,4257,190,22,0,False
+30,breakdown,1,replan,True,24,3,27,24,,0,1317.777,False,4283,197,4257,190,26,0,False
+30,breakdown,2,repair,True,20,1,1,0,L2 negotiate,3,3.495,False,4131,195,4106,195,25,0,False
+30,breakdown,2,replan,True,20,1,20,19,,0,1265.554,False,4122,195,4106,195,16,0,False
+30,breakdown,3,repair,True,14,4,4,0,L1 detour;L2 negotiate,4,18.432,False,4286,204,4261,204,25,0,False
+30,breakdown,3,replan,True,14,4,30,26,,0,489.645,False,4277,210,4261,204,16,0,False
+30,breakdown,4,repair,True,25,4,4,0,L1 detour;L2 negotiate,2,13.514,False,4337,193,4316,182,21,0,False
+30,breakdown,4,replan,True,25,4,27,23,,0,634.959,False,4335,182,4316,182,19,0,False
+30,breakdown,5,repair,True,13,1,1,0,L1 detour,0,33.171,False,4223,194,4210,194,13,0,False
+30,breakdown,5,replan,True,13,1,25,24,,0,843.652,False,4239,196,4210,194,29,0,False
+30,breakdown,6,repair,True,29,5,5,0,L1 detour,0,208.107,False,4171,177,4147,177,24,0,False
+30,breakdown,6,replan,True,29,5,25,20,,0,441.533,False,4184,186,4147,177,37,0,False
+30,breakdown,7,repair,True,25,1,1,0,L2 negotiate,2,4.631,False,4168,186,4156,186,12,0,False
+30,breakdown,7,replan,True,25,1,25,24,,0,480.033,False,4151,186,4156,186,-5,0,False
+30,breakdown,8,repair,True,20,2,2,0,L1 detour;L2 negotiate,2,8.254,False,3959,191,3933,191,26,0,False
+30,breakdown,8,replan,True,20,2,30,28,,0,1145.009,False,3946,192,3933,191,13,0,False
+30,breakdown,9,repair,True,19,2,2,0,L1 detour,0,11.772,False,4126,193,4112,193,14,0,False
+30,breakdown,9,replan,True,19,2,15,13,,0,455.172,False,4127,193,4112,193,15,0,False
+30,breakdown,10,repair,True,15,2,2,0,L1 detour;L2 negotiate,3,56.698,False,4495,208,4474,208,21,0,False
+30,breakdown,10,replan,True,15,2,23,21,,0,370.922,False,4481,206,4474,208,7,0,False
+30,breakdown,11,repair,True,21,3,3,0,L1 detour,0,21.269,False,4161,182,4138,182,23,0,False
+30,breakdown,11,replan,True,21,3,26,23,,0,442.29,False,4142,182,4138,182,4,0,False
+30,breakdown,12,repair,True,25,1,1,0,L2 negotiate,1,11.732,False,4592,200,4562,200,30,0,False
+30,breakdown,12,replan,True,25,1,23,22,,0,779.077,False,4576,200,4562,200,14,0,False
+30,breakdown,13,repair,True,19,1,1,0,L2 negotiate,1,2.834,False,3999,185,3984,185,15,0,False
+30,breakdown,13,replan,True,19,1,26,25,,0,866.025,False,3999,185,3984,185,15,0,False
+30,breakdown,14,repair,True,14,1,1,0,L1 detour,0,0.973,False,4098,194,4096,194,2,0,False
+30,breakdown,14,replan,True,14,1,23,22,,0,442.334,False,4100,194,4096,194,4,0,False
+30,breakdown,15,repair,True,12,2,2,0,L1 detour,0,23.693,False,4360,182,4349,182,11,0,False
+30,breakdown,15,replan,True,12,2,25,23,,0,451.593,False,4348,182,4349,182,-1,0,False
+30,breakdown,16,repair,True,14,2,2,0,L1 detour;L2 negotiate,1,4.647,False,4231,204,4208,204,23,0,False
+30,breakdown,16,replan,True,14,2,18,16,,0,1162.752,False,4225,204,4208,204,17,0,False
+30,breakdown,17,repair,True,16,4,4,0,L1 detour;L2 negotiate,5,56.776,False,4135,173,4103,173,32,0,False
+30,breakdown,17,replan,True,16,4,29,25,,0,294.329,False,4114,173,4103,173,11,0,False
+30,breakdown,18,repair,True,14,3,3,0,L1 detour;L2 negotiate,12,13.531,False,4101,180,4078,172,23,0,False
+30,breakdown,18,replan,True,14,3,25,22,,0,1155.401,False,4106,179,4078,172,28,0,False
+30,breakdown,19,repair,True,13,1,1,0,L2 negotiate,2,2.526,False,4297,182,4276,182,21,0,False
+30,breakdown,19,replan,True,13,1,20,19,,0,460.173,False,4291,182,4276,182,15,0,False
+30,breakdown,20,repair,True,11,2,2,0,L2 negotiate,7,9.105,False,4109,174,4070,174,39,0,False
+30,breakdown,20,replan,True,11,2,29,27,,0,882.082,False,4084,175,4070,174,14,0,False
+30,breakdown,21,repair,True,10,6,6,0,L1 detour;L2 negotiate;yield,10,89.698,False,4216,178,4160,178,56,0,False
+30,breakdown,21,replan,True,10,6,25,19,,0,758.987,False,4212,175,4160,178,52,0,False
+30,breakdown,22,repair,True,14,2,2,0,L1 detour,0,83.55,False,4185,182,4176,182,9,0,False
+30,breakdown,22,replan,True,14,2,21,19,,0,324.732,False,4189,183,4176,182,13,0,False
+30,breakdown,23,repair,True,29,2,2,0,L1 detour;L2 negotiate,3,7.9,False,4147,193,4125,171,22,0,False
+30,breakdown,23,replan,True,29,2,17,15,,0,765.892,False,4149,180,4125,171,24,0,False
+30,breakdown,24,repair,True,21,1,1,0,L2 negotiate,3,3.584,False,4130,208,4119,208,11,0,False
+30,breakdown,24,replan,True,21,1,19,18,,0,720.486,False,4123,210,4119,208,4,0,False
+30,breakdown,25,repair,True,23,5,5,0,L1 detour;L2 negotiate,7,31.545,False,4142,207,4095,207,47,0,False
+30,breakdown,25,replan,True,23,5,25,20,,0,1229.584,False,4101,205,4095,207,6,0,False
+30,breakdown,26,repair,True,10,1,1,0,L2 negotiate,1,6.399,False,4215,197,4197,197,18,0,False
+30,breakdown,26,replan,True,10,1,16,15,,0,352.036,False,4216,197,4197,197,19,0,False
+30,breakdown,27,repair,True,13,3,3,0,L1 detour;L2 negotiate,4,27.022,False,4206,205,4178,205,28,0,False
+30,breakdown,27,replan,True,13,3,26,23,,0,390.796,False,4212,205,4178,205,34,0,False
+30,breakdown,28,repair,True,17,5,5,0,L1 detour;L2 negotiate,1,17.573,False,4227,184,4196,184,31,0,False
+30,breakdown,28,replan,True,17,5,21,16,,0,275.216,False,4212,184,4196,184,16,0,False
+30,breakdown,29,repair,True,30,1,1,0,L2 negotiate,2,1.584,False,4030,175,4019,175,11,0,False
+30,breakdown,29,replan,True,30,1,21,20,,0,386.534,False,4034,175,4019,175,15,0,False
+40,breakdown,0,repair,True,24,3,3,0,L1 detour,0,55.773,False,5752,185,5709,185,43,0,False
+40,breakdown,0,replan,True,24,3,33,30,,0,725.609,False,5752,185,5709,185,43,0,False
+40,breakdown,1,repair,True,24,5,5,0,L1 detour;L2 negotiate,8,21.48,False,5554,191,5485,187,69,0,False
+40,breakdown,1,replan,True,24,5,40,35,,0,1031.848,False,5522,189,5485,187,37,0,False
+40,breakdown,2,repair,True,20,6,6,0,L1 detour;L2 negotiate;yield,11,18.508,False,5831,205,5779,205,52,0,False
+40,breakdown,2,replan,True,20,6,33,27,,0,418.876,False,5804,207,5779,205,25,0,False
+40,breakdown,3,repair,True,14,2,2,0,L1 detour,0,14.401,False,5708,183,5678,183,30,0,False
+40,breakdown,3,replan,True,14,2,27,25,,0,1086.744,False,5707,183,5678,183,29,0,False
+40,breakdown,4,repair,True,25,1,1,0,L2 negotiate,3,2.779,False,5373,195,5351,195,22,0,False
+40,breakdown,4,replan,True,25,1,36,35,,0,1139.145,False,5382,193,5351,195,31,0,False
+40,breakdown,5,repair,True,13,1,1,0,L2 negotiate,4,3.403,False,5781,190,5767,190,14,0,False
+40,breakdown,5,replan,True,13,1,39,38,,0,954.493,False,5789,193,5767,190,22,0,False
+40,breakdown,6,repair,True,29,1,1,0,L2 negotiate,2,5.864,False,5908,202,5891,202,17,0,False
+40,breakdown,6,replan,True,29,1,37,36,,0,864.184,False,5901,202,5891,202,10,0,False
+40,breakdown,7,repair,True,25,2,2,0,L1 detour;L2 negotiate,2,64.068,False,5563,203,5549,203,14,0,False
+40,breakdown,7,replan,True,25,2,27,25,,0,521.222,False,5553,203,5549,203,4,0,False
+40,breakdown,8,repair,True,20,2,2,0,L1 detour,0,78.38,False,5700,193,5680,193,20,0,False
+40,breakdown,8,replan,True,20,2,30,28,,0,1366.738,False,5679,193,5680,193,-1,0,False
+40,breakdown,9,repair,True,19,5,5,0,L1 detour;L2 negotiate,6,76.871,False,5928,234,5898,234,30,0,False
+40,breakdown,9,replan,True,19,5,34,29,,0,943.678,False,5906,236,5898,234,8,0,False
+40,breakdown,10,repair,True,15,2,2,0,L1 detour;L2 negotiate,3,15.53,False,5897,202,5878,202,19,0,False
+40,breakdown,10,replan,True,15,2,32,30,,0,671.375,False,5889,203,5878,202,11,0,False
+40,breakdown,11,repair,True,21,1,1,0,L2 negotiate,2,17.694,False,5873,223,5854,204,19,0,False
+40,breakdown,11,replan,True,21,1,25,24,,0,905.987,False,5864,213,5854,204,10,0,False
+40,breakdown,12,repair,True,25,2,2,0,L1 detour,0,8.061,False,5894,201,5882,201,12,0,False
+40,breakdown,12,replan,True,25,2,28,26,,0,1397.486,False,5898,203,5882,201,16,0,False
+40,breakdown,13,repair,True,19,2,2,0,L1 detour;L2 negotiate,4,45.599,False,5513,187,5503,187,10,0,False
+40,breakdown,13,replan,True,19,2,30,28,,0,935.485,False,5507,187,5503,187,4,0,False
+40,breakdown,14,repair,True,14,4,5,1,L1 detour;L2 negotiate;yield,10,24.614,False,5882,182,5832,182,50,0,False
+40,breakdown,14,replan,True,14,4,38,34,,0,1256.712,False,5836,184,5832,182,4,0,False
+40,breakdown,15,repair,True,12,2,2,0,L2 negotiate,7,18.873,False,5780,198,5743,198,37,0,False
+40,breakdown,15,replan,True,12,2,40,38,,0,1059.783,False,5731,192,5743,198,-12,0,False
+40,breakdown,16,repair,True,14,1,1,0,L2 negotiate,3,4.957,False,5716,195,5706,195,10,0,False
+40,breakdown,16,replan,True,14,1,28,27,,0,632.171,False,5710,195,5706,195,4,0,False
+40,breakdown,17,repair,True,16,5,5,0,L1 detour;L2 negotiate;yield,4,85.208,False,5492,198,5457,198,35,0,False
+40,breakdown,17,replan,True,16,5,40,35,,0,615.853,False,5501,205,5457,198,44,0,False
+40,breakdown,18,repair,True,14,3,3,0,L1 detour;L2 negotiate,5,63.129,False,5511,186,5495,186,16,0,False
+40,breakdown,18,replan,True,14,3,35,32,,0,1119.941,False,5527,184,5495,186,32,0,False
+40,breakdown,19,repair,True,13,3,3,0,L1 detour,0,21.657,False,5545,182,5516,182,29,0,False
+40,breakdown,19,replan,True,13,3,37,34,,0,1145.2,False,5518,182,5516,182,2,0,False
+40,breakdown,20,repair,True,11,4,4,0,L1 detour;L2 negotiate,8,20.335,False,5696,202,5669,202,27,0,False
+40,breakdown,20,replan,True,11,4,34,30,,0,543.073,False,5700,205,5669,202,31,0,False
+40,breakdown,21,repair,True,10,6,6,0,L1 detour;L2 negotiate,5,37.723,False,5781,197,5714,197,67,0,False
+40,breakdown,21,replan,True,10,6,36,30,,0,722.15,False,5742,197,5714,197,28,0,False
+40,breakdown,22,repair,True,14,2,2,0,L1 detour;L2 negotiate,3,87.644,False,5512,197,5495,180,17,0,False
+40,breakdown,22,replan,True,14,2,25,23,,0,910.459,False,5501,181,5495,180,6,0,False
+40,breakdown,23,repair,True,29,4,4,0,L1 detour,0,190.986,False,5588,174,5560,174,28,0,False
+40,breakdown,23,replan,True,29,4,37,33,,0,1273.789,False,5575,178,5560,174,15,0,False
+40,breakdown,24,repair,True,21,6,6,0,L1 detour;L2 negotiate,5,147.434,False,5704,183,5647,183,57,0,False
+40,breakdown,24,replan,True,21,6,34,28,,0,846.438,False,5683,183,5647,183,36,0,False
+40,breakdown,25,repair,True,23,3,3,0,L1 detour;L2 negotiate,2,65.162,False,5772,197,5732,197,40,0,False
+40,breakdown,25,replan,True,23,3,36,33,,0,1220.515,False,5778,197,5732,197,46,0,False
+40,breakdown,26,repair,True,10,2,3,1,L1 detour;L2 negotiate;yield,6,37.646,False,5778,188,5759,188,19,0,False
+40,breakdown,26,replan,True,10,2,37,35,,0,1012.554,False,5769,188,5759,188,10,0,False
+40,breakdown,27,repair,True,13,3,3,0,L1 detour;L2 negotiate,11,12.133,False,5611,184,5575,184,36,0,False
+40,breakdown,27,replan,True,13,3,40,37,,0,1282.103,False,5581,180,5575,184,6,0,False
+40,breakdown,28,repair,True,17,5,5,0,L1 detour;L2 negotiate,4,330.193,False,6074,235,6028,235,46,0,False
+40,breakdown,28,replan,True,17,5,38,33,,0,2231.338,False,6022,236,6028,235,-6,0,False
+40,breakdown,29,repair,True,30,2,2,0,L1 detour,0,38.038,False,5790,196,5761,196,29,0,False
+40,breakdown,29,replan,True,30,2,37,35,,0,896.698,False,5770,196,5761,196,9,0,False
+50,breakdown,0,repair,True,24,2,2,0,L1 detour;L2 negotiate,1,34.019,False,7006,207,6980,207,26,0,False
+50,breakdown,0,replan,True,24,2,35,33,,0,976.303,False,6980,207,6980,207,0,0,False
+50,breakdown,1,repair,True,24,2,2,0,L1 detour;L2 negotiate,3,66.911,False,7252,196,7207,196,45,0,False
+50,breakdown,1,replan,True,24,2,48,46,,0,1034.685,False,7248,196,7207,196,41,0,False
+50,breakdown,2,repair,True,20,3,3,0,L1 detour;L2 negotiate,4,56.882,False,7374,208,7352,208,22,0,False
+50,breakdown,2,replan,True,20,3,50,47,,0,2244.811,False,7352,216,7352,208,0,0,False
+50,breakdown,3,repair,True,14,4,4,0,L1 detour;L2 negotiate,5,49.045,False,7473,223,7436,209,37,0,False
+50,breakdown,3,replan,True,14,4,43,39,,0,1310.022,False,7460,210,7436,209,24,0,False
+50,breakdown,4,repair,True,25,4,4,0,L1 detour;L2 negotiate,8,71.868,False,7068,186,7018,186,50,0,False
+50,breakdown,4,replan,True,25,4,47,43,,0,596.962,False,6966,186,7018,186,-52,0,False
+50,breakdown,5,repair,True,13,3,3,0,L1 detour;L2 negotiate,8,28.82,False,7237,222,7194,210,43,0,False
+50,breakdown,5,replan,True,13,3,50,47,,0,1571.733,False,7162,220,7194,210,-32,0,False
+50,breakdown,6,repair,True,29,5,5,0,L1 detour;L2 negotiate,1,77.817,False,6931,181,6895,173,36,0,False
+50,breakdown,6,replan,True,29,5,44,39,,0,1162.911,False,6875,176,6895,173,-20,0,False
+50,breakdown,7,repair,True,25,6,6,0,L1 detour;L2 negotiate;yield,15,120.594,False,7409,202,7352,190,57,0,False
+50,breakdown,7,replan,True,25,6,40,34,,0,669.433,False,7367,199,7352,190,15,0,False
+50,breakdown,8,repair,True,20,2,2,0,L1 detour,0,41.384,False,7170,196,7154,196,16,0,False
+50,breakdown,8,replan,True,20,2,37,35,,0,1919.414,False,7166,196,7154,196,12,0,False
+50,breakdown,9,repair,True,19,1,1,0,L1 detour,0,2.984,False,6889,185,6874,185,15,0,False
+50,breakdown,9,replan,True,19,1,27,26,,0,573.307,False,6867,183,6874,185,-7,0,False
+50,breakdown,10,repair,True,15,1,1,0,L2 negotiate,3,7.145,False,7585,198,7562,198,23,0,False
+50,breakdown,10,replan,True,15,1,45,44,,0,1708.904,False,7576,198,7562,198,14,0,False
+50,breakdown,11,repair,True,21,6,8,2,L1 detour;L2 negotiate;yield,27,162.752,False,7279,210,7203,210,76,0,False
+50,breakdown,11,replan,True,21,6,47,41,,0,2199.027,False,7247,210,7203,210,44,0,False
+50,breakdown,12,repair,True,25,2,2,0,L1 detour;L2 negotiate,3,7.854,False,7301,204,7294,204,7,0,False
+50,breakdown,12,replan,True,25,2,37,35,,0,819.834,False,7296,203,7294,204,2,0,False
+50,breakdown,13,repair,True,19,4,4,0,L1 detour;L2 negotiate,10,71.164,False,7193,209,7164,209,29,0,False
+50,breakdown,13,replan,True,19,4,50,46,,0,2431.122,False,7207,204,7164,209,43,0,False
+50,breakdown,14,repair,True,14,5,6,1,L1 detour;L2 negotiate;yield,6,123.154,False,7061,202,6994,202,67,0,False
+50,breakdown,14,replan,True,14,5,50,45,,0,5176.068,False,7061,193,6994,202,67,0,False
+50,breakdown,15,repair,True,12,3,3,0,L2 negotiate;yield,13,98.624,False,7184,213,7140,213,44,0,False
+50,breakdown,15,replan,True,12,3,39,36,,0,2176.345,False,7136,213,7140,213,-4,0,False
+50,breakdown,16,repair,True,14,4,4,0,L1 detour;L2 negotiate,2,138.315,False,7092,189,7045,189,47,0,False
+50,breakdown,16,replan,True,14,4,49,45,,0,1293.85,False,7081,190,7045,189,36,0,False
+50,breakdown,17,repair,True,16,6,6,0,L1 detour,0,91.56,False,7159,200,7083,200,76,0,False
+50,breakdown,17,replan,True,16,6,50,44,,0,1287.845,False,7150,197,7083,200,67,0,False
+50,breakdown,18,repair,True,14,4,4,0,L1 detour;L2 negotiate,19,75.408,False,7097,201,7052,201,45,0,False
+50,breakdown,18,replan,True,14,4,46,42,,0,1363.186,False,7073,203,7052,201,21,0,False
+50,breakdown,19,repair,True,13,5,5,0,L1 detour;L2 negotiate,2,167.98,False,7078,206,7028,206,50,0,False
+50,breakdown,19,replan,True,13,5,47,42,,0,512.568,False,7095,206,7028,206,67,0,False
+50,breakdown,20,repair,True,11,1,1,0,L1 detour,0,2.505,False,7274,217,7266,217,8,0,False
+50,breakdown,20,replan,True,11,1,47,46,,0,1338.352,False,7282,218,7266,217,16,0,False
+50,breakdown,21,repair,True,10,2,3,1,L1 detour;L2 negotiate;yield,10,180.491,False,7184,224,7144,224,40,0,False
+50,breakdown,21,replan,True,10,2,37,35,,0,1229.293,False,7158,224,7144,224,14,0,False
+50,breakdown,22,repair,True,14,4,4,0,L1 detour;L2 negotiate,1,231.749,False,7481,208,7461,208,20,0,False
+50,breakdown,22,replan,True,14,4,44,40,,0,1029.381,False,7425,206,7461,208,-36,0,False
+50,breakdown,23,repair,True,29,3,3,0,L1 detour;L2 negotiate,6,21.565,False,7162,202,7121,202,41,0,False
+50,breakdown,23,replan,True,29,3,50,47,,0,1520.003,False,7151,199,7121,202,30,0,False
+50,breakdown,24,repair,True,21,4,4,0,L1 detour,0,91.634,False,7082,202,7047,202,35,0,False
+50,breakdown,24,replan,True,21,4,50,46,,0,2941.035,False,7085,211,7047,202,38,0,False
+50,breakdown,25,repair,True,23,4,4,0,L1 detour;L2 negotiate,10,21.847,False,6642,194,6604,194,38,0,False
+50,breakdown,25,replan,True,23,4,46,42,,0,842.453,False,6635,194,6604,194,31,0,False
+50,breakdown,26,repair,True,10,1,1,0,L1 detour,0,92.827,False,7085,222,7068,222,17,0,False
+50,breakdown,26,replan,True,10,1,34,33,,0,818.365,False,7081,222,7068,222,13,0,False
+50,breakdown,27,repair,True,13,4,4,0,L1 detour;L2 negotiate;yield,12,33.009,False,7356,199,7287,197,69,0,False
+50,breakdown,27,replan,True,13,4,45,41,,0,1342.117,False,7301,201,7287,197,14,0,False
+50,breakdown,28,repair,True,17,1,1,0,L2 negotiate,4,4.734,False,7007,181,6996,181,11,0,False
+50,breakdown,28,replan,True,17,1,39,38,,0,1033.678,False,6987,183,6996,181,-9,0,False
+50,breakdown,29,repair,True,30,3,4,1,L1 detour;L2 negotiate;yield,16,36.657,False,7607,210,7592,205,15,0,False
+50,breakdown,29,replan,True,30,3,44,41,,0,2279.736,False,7604,205,7592,205,12,0,False
+10,emergency,0,repair,True,24,1,1,0,L1 detour,0,1.132,False,1410,202,1352,164,58,0,False
+10,emergency,0,replan,True,24,1,9,8,,0,690.582,False,1409,200,1352,164,57,0,False
+10,emergency,1,repair,True,24,1,1,0,L1 detour,0,0.845,False,1364,178,1326,172,38,0,False
+10,emergency,1,replan,True,24,1,6,5,,0,7.674,False,1360,176,1326,172,34,0,False
+10,emergency,2,repair,True,20,1,1,0,L1 detour,0,1.112,False,1320,184,1259,152,61,0,False
+10,emergency,2,replan,True,20,1,8,7,,0,138.07,False,1321,183,1259,152,62,0,False
+10,emergency,3,repair,True,14,1,1,0,L2 priority,3,2.747,False,1449,189,1378,174,71,0,False
+10,emergency,3,replan,True,14,1,7,6,,0,76.208,False,1446,185,1378,174,68,0,False
+10,emergency,4,repair,True,25,1,1,0,L1 detour,0,0.981,False,1365,176,1337,163,28,0,False
+10,emergency,4,replan,True,25,1,4,3,,0,317.132,False,1367,176,1337,163,30,0,False
+10,emergency,5,repair,True,13,1,1,0,L2 priority,1,4.131,False,1448,221,1371,154,77,0,False
+10,emergency,5,replan,True,13,1,10,9,,0,539.141,False,1446,214,1371,154,75,0,False
+10,emergency,6,repair,True,29,1,1,0,L1 detour,0,1.301,False,1456,198,1382,172,74,0,False
+10,emergency,6,replan,True,29,1,8,7,,0,290.601,False,1454,196,1382,172,72,0,False
+10,emergency,7,repair,True,25,1,1,0,L1 detour,0,2.418,False,1477,224,1389,172,88,0,False
+10,emergency,7,replan,True,25,1,7,6,,0,523.727,False,1475,222,1389,172,86,0,False
+10,emergency,8,repair,True,20,1,1,0,L2 priority,3,2.46,False,1458,185,1397,171,61,0,False
+10,emergency,8,replan,True,20,1,7,6,,0,153.206,False,1453,180,1397,171,56,0,False
+10,emergency,9,repair,True,19,1,1,0,L1 detour,0,0.737,False,1290,167,1248,152,42,0,False
+10,emergency,9,replan,True,19,1,5,4,,0,54.75,False,1295,167,1248,152,47,0,False
+10,emergency,10,repair,True,15,1,1,0,L2 priority,1,1.988,False,1525,208,1467,163,58,0,False
+10,emergency,10,replan,True,15,1,8,7,,0,7.231,False,1521,204,1467,163,54,0,False
+10,emergency,11,repair,True,21,1,1,0,L1 detour,0,1.777,False,1455,168,1427,168,28,0,False
+10,emergency,11,replan,True,21,1,7,6,,0,45.052,False,1456,168,1427,168,29,0,False
+10,emergency,12,repair,True,25,1,1,0,L2 priority,1,1.48,False,1390,187,1375,187,15,0,False
+10,emergency,12,replan,True,25,1,10,9,,0,38.938,False,1379,187,1375,187,4,0,False
+10,emergency,13,repair,True,19,1,2,1,L2 priority;yield,3,23.863,False,1383,182,1337,152,46,0,False
+10,emergency,13,replan,True,19,1,10,9,,0,400.419,False,1384,182,1337,152,47,0,False
+10,emergency,14,repair,True,14,1,1,0,L2 priority,1,2.156,False,1439,181,1382,181,57,0,False
+10,emergency,14,replan,True,14,1,7,6,,0,56.045,False,1435,181,1382,181,53,0,False
+10,emergency,15,repair,True,12,1,1,0,L2 priority,2,2.313,False,1362,179,1301,178,61,0,False
+10,emergency,15,replan,True,12,1,6,5,,0,71.126,False,1362,178,1301,178,61,0,False
+10,emergency,16,repair,True,14,1,1,0,L2 priority,2,6.293,False,1571,268,1497,201,74,0,False
+10,emergency,16,replan,True,14,1,7,6,,0,1083.108,False,1567,265,1497,201,70,0,False
+10,emergency,17,repair,True,16,1,1,0,L1 detour,0,1.1,False,1351,177,1313,170,38,0,False
+10,emergency,17,replan,True,16,1,8,7,,0,340.342,False,1347,175,1313,170,34,0,False
+10,emergency,18,repair,True,14,1,2,1,L2 priority;yield,6,4.467,False,1385,185,1337,156,48,0,False
+10,emergency,18,replan,True,14,1,8,7,,0,198.467,False,1385,185,1337,156,48,0,False
+10,emergency,19,repair,True,13,1,1,0,L1 detour,0,1.131,False,1526,197,1466,187,60,0,False
+10,emergency,19,replan,True,13,1,7,6,,0,335.469,False,1528,197,1466,187,62,0,False
+10,emergency,20,repair,True,11,1,1,0,L2 priority,1,4.216,False,1527,198,1492,198,35,0,False
+10,emergency,20,replan,True,11,1,9,8,,0,137.804,False,1527,198,1492,198,35,0,False
+10,emergency,21,repair,True,10,1,1,0,L1 detour,0,0.846,False,1403,178,1385,178,18,0,False
+10,emergency,21,replan,True,10,1,4,3,,0,43.767,False,1403,178,1385,178,18,0,False
+10,emergency,22,repair,True,14,1,1,0,L1 detour,0,1.01,False,1415,179,1367,171,48,0,False
+10,emergency,22,replan,True,14,1,7,6,,0,380.784,False,1415,177,1367,171,48,0,False
+10,emergency,23,repair,True,29,1,1,0,L1 detour,0,0.795,False,1385,157,1333,157,52,0,False
+10,emergency,23,replan,True,29,1,7,6,,0,14.891,False,1382,157,1333,157,49,0,False
+10,emergency,24,repair,True,21,1,1,0,L2 priority,2,1.934,False,1353,177,1327,169,26,0,False
+10,emergency,24,replan,True,21,1,7,6,,0,14.591,False,1349,171,1327,169,22,0,False
+10,emergency,25,repair,True,23,1,1,0,L1 detour,0,1.371,False,1350,218,1276,151,74,0,False
+10,emergency,25,replan,True,23,1,6,5,,0,444.304,False,1352,216,1276,151,76,0,False
+10,emergency,26,repair,True,10,1,1,0,L2 priority,1,3.178,False,1511,205,1461,178,50,0,False
+10,emergency,26,replan,True,10,1,8,7,,0,7.359,False,1507,201,1461,178,46,0,False
+10,emergency,27,repair,True,13,1,1,0,L1 detour,0,1.208,False,1432,177,1383,177,49,0,False
+10,emergency,27,replan,True,13,1,7,6,,0,126.11,False,1429,175,1383,177,46,0,False
+10,emergency,28,repair,True,17,1,1,0,L1 detour,0,2.137,False,1399,255,1321,181,78,0,False
+10,emergency,28,replan,True,17,1,3,2,,0,205.58,False,1399,255,1321,181,78,0,False
+10,emergency,29,repair,True,30,1,1,0,L1 detour,0,1.131,False,1433,186,1361,186,72,0,False
+10,emergency,29,replan,True,30,1,8,7,,0,403.057,False,1435,188,1361,186,74,0,False
+20,emergency,0,repair,True,24,1,1,0,L2 priority,7,3.626,False,2769,184,2726,173,43,0,False
+20,emergency,0,replan,True,24,1,10,9,,0,231.852,False,2770,179,2726,173,44,0,False
+20,emergency,1,repair,True,24,1,2,1,L2 priority;yield,5,5.883,False,2836,211,2776,182,60,0,False
+20,emergency,1,replan,True,24,1,20,19,,0,1128.859,False,2842,207,2776,182,66,0,False
+20,emergency,2,repair,True,20,1,2,1,L2 priority;yield,4,4.395,False,3132,218,3079,218,53,0,False
+20,emergency,2,replan,True,20,1,14,13,,0,261.82,False,3121,219,3079,218,42,0,False
+20,emergency,3,repair,True,14,1,2,1,L2 priority;yield,5,4.607,False,2643,195,2578,181,65,0,False
+20,emergency,3,replan,True,14,1,19,18,,0,1009.75,False,2641,183,2578,181,63,0,False
+20,emergency,4,repair,True,25,1,2,1,L2 priority;yield,9,18.98,False,2970,192,2934,192,36,0,False
+20,emergency,4,replan,True,25,1,18,17,,0,963.414,False,2970,192,2934,192,36,0,False
+20,emergency,5,repair,True,13,1,1,0,L2 priority,2,2.254,False,2686,206,2614,189,72,0,False
+20,emergency,5,replan,True,13,1,16,15,,0,187.685,False,2677,202,2614,189,63,0,False
+20,emergency,6,repair,True,29,1,1,0,L1 detour,0,1.524,False,2774,176,2710,176,64,0,False
+20,emergency,6,replan,True,29,1,12,11,,0,277.673,False,2776,176,2710,176,66,0,False
+20,emergency,7,repair,True,25,1,1,0,L2 priority,4,4.335,False,2748,198,2699,198,49,0,False
+20,emergency,7,replan,True,25,1,18,17,,0,599.726,False,2750,198,2699,198,51,0,False
+20,emergency,8,repair,True,20,1,1,0,L2 priority,2,7.866,False,2617,211,2552,162,65,0,False
+20,emergency,8,replan,True,20,1,15,14,,0,1168.315,False,2609,204,2552,162,57,0,False
+20,emergency,9,repair,True,19,1,1,0,L1 detour,0,1.496,False,2721,173,2695,172,26,0,False
+20,emergency,9,replan,True,19,1,14,13,,0,385.234,False,2717,173,2695,172,22,0,False
+20,emergency,10,repair,True,15,1,1,0,L1 detour,0,1.162,False,2990,225,2937,225,53,0,False
+20,emergency,10,replan,True,15,1,17,16,,0,186.871,False,3003,227,2937,225,66,0,False
+20,emergency,11,repair,True,21,1,1,0,L1 detour,0,1.135,False,2820,174,2773,167,47,0,False
+20,emergency,11,replan,True,21,1,14,13,,0,611.603,False,2819,173,2773,167,46,0,False
+20,emergency,12,repair,True,25,1,1,0,L2 priority,3,3.635,False,2732,182,2715,182,17,0,False
+20,emergency,12,replan,True,25,1,13,12,,0,426.592,False,2733,186,2715,182,18,0,False
+20,emergency,13,repair,True,19,1,1,0,L2 priority,3,4.18,False,2696,168,2636,156,60,0,False
+20,emergency,13,replan,True,19,1,17,16,,0,267.311,False,2698,164,2636,156,62,0,False
+20,emergency,14,repair,True,14,1,1,0,L2 priority,3,2.281,False,2910,219,2872,219,38,0,False
+20,emergency,14,replan,True,14,1,14,13,,0,894.064,False,2907,218,2872,219,35,0,False
+20,emergency,15,repair,True,12,1,1,0,L1 detour,0,2.003,False,2812,241,2747,177,65,0,False
+20,emergency,15,replan,True,12,1,14,13,,0,2672.174,False,2814,241,2747,177,67,0,False
+20,emergency,16,repair,True,14,1,2,1,L2 priority;yield,6,9.002,False,2791,176,2716,174,75,0,False
+20,emergency,16,replan,True,14,1,16,15,,0,437.541,False,2793,175,2716,174,77,0,False
+20,emergency,17,repair,True,16,1,2,1,L2 priority;yield,4,6.472,False,2965,208,2888,185,77,0,False
+20,emergency,17,replan,True,16,1,15,14,,0,560.525,False,2971,206,2888,185,83,0,False
+20,emergency,18,repair,True,14,1,1,0,L2 priority,5,3.302,False,2713,206,2671,164,42,0,False
+20,emergency,18,replan,True,14,1,14,13,,0,1196.345,False,2709,201,2671,164,38,0,False
+20,emergency,19,repair,True,13,1,1,0,L2 priority,2,10.66,False,2976,193,2915,183,61,0,False
+20,emergency,19,replan,True,13,1,17,16,,0,644.062,False,2979,190,2915,183,64,0,False
+20,emergency,20,repair,True,11,1,2,1,L2 priority;yield,6,4.971,False,2813,197,2783,197,30,0,False
+20,emergency,20,replan,True,11,1,19,18,,0,382.97,False,2817,197,2783,197,34,0,False
+20,emergency,21,repair,True,10,1,1,0,L2 priority,3,30.245,False,2883,198,2861,198,22,0,False
+20,emergency,21,replan,True,10,1,12,11,,0,171.393,False,2899,203,2861,198,38,0,False
+20,emergency,22,repair,True,14,1,1,0,L2 priority,2,5.517,False,2848,193,2796,174,52,0,False
+20,emergency,22,replan,True,14,1,20,19,,0,401.463,False,2840,185,2796,174,44,0,False
+20,emergency,23,repair,True,29,1,1,0,L1 detour,0,1.144,False,2802,215,2764,179,38,0,False
+20,emergency,23,replan,True,29,1,14,13,,0,1363.472,False,2795,213,2764,179,31,0,False
+20,emergency,24,repair,True,21,1,1,0,L1 detour,0,1.2,False,2781,209,2729,174,52,0,False
+20,emergency,24,replan,True,21,1,13,12,,0,420.732,False,2780,207,2729,174,51,0,False
+20,emergency,25,repair,True,23,1,1,0,L1 detour,0,1.487,False,3033,224,2978,187,55,0,False
+20,emergency,25,replan,True,23,1,8,7,,0,411.303,False,3032,223,2978,187,54,0,False
+20,emergency,26,repair,True,10,1,1,0,L1 detour,0,1.656,False,2732,223,2674,189,58,0,False
+20,emergency,26,replan,True,10,1,18,17,,0,1142.338,False,2742,221,2674,189,68,0,False
+20,emergency,27,repair,True,13,1,2,1,L2 priority;yield,4,39.588,False,2733,253,2646,173,87,0,False
+20,emergency,27,replan,True,13,1,19,18,,0,854.757,False,2738,241,2646,173,92,0,False
+20,emergency,28,repair,True,17,1,1,0,L1 detour,0,1.001,False,2800,203,2789,203,11,0,False
+20,emergency,28,replan,True,17,1,16,15,,0,210.13,False,2794,205,2789,203,5,0,False
+20,emergency,29,repair,True,30,1,2,1,L2 priority;yield,3,13.334,False,2948,205,2871,190,77,0,False
+20,emergency,29,replan,True,30,1,17,16,,0,562.191,False,2933,199,2871,190,62,0,False
+30,emergency,0,repair,True,24,1,1,0,L2 priority,2,3.817,False,4295,194,4251,194,44,0,False
+30,emergency,0,replan,True,24,1,19,18,,0,1068.898,False,4302,194,4251,194,51,0,False
+30,emergency,1,repair,True,24,1,1,0,L1 detour,0,2.049,False,4315,236,4257,190,58,0,False
+30,emergency,1,replan,True,24,1,26,25,,0,2499.073,False,4328,234,4257,190,71,0,False
+30,emergency,2,repair,True,20,1,1,0,L2 priority,3,6.741,False,4143,195,4106,195,37,0,False
+30,emergency,2,replan,True,20,1,25,24,,0,1448.827,False,4135,195,4106,195,29,0,False
+30,emergency,3,repair,True,14,1,1,0,L2 priority,4,4.971,False,4339,228,4261,204,78,0,False
+30,emergency,3,replan,True,14,1,30,29,,0,1279.075,False,4336,224,4261,204,75,0,False
+30,emergency,4,repair,True,25,1,1,0,L2 priority,2,2.544,False,4365,217,4316,182,49,0,False
+30,emergency,4,replan,True,25,1,23,22,,0,1203.705,False,4381,211,4316,182,65,0,False
+30,emergency,5,repair,True,13,1,2,1,L2 priority;yield,10,48.629,False,4247,194,4210,194,37,0,False
+30,emergency,5,replan,True,13,1,26,25,,0,1218.148,False,4264,196,4210,194,54,0,False
+30,emergency,6,repair,True,29,1,1,0,L2 priority,1,2.393,False,4199,191,4147,177,52,0,False
+30,emergency,6,replan,True,29,1,18,17,,0,508.075,False,4190,185,4147,177,43,0,False
+30,emergency,7,repair,True,25,1,1,0,L2 priority,2,5.382,False,4207,186,4156,186,51,0,False
+30,emergency,7,replan,True,25,1,19,18,,0,225.956,False,4192,186,4156,186,36,0,False
+30,emergency,8,repair,True,20,1,1,0,L2 priority,2,4.176,False,4012,210,3933,191,79,0,False
+30,emergency,8,replan,True,20,1,24,23,,0,1552.52,False,4002,205,3933,191,69,0,False
+30,emergency,9,repair,True,19,1,1,0,L2 priority,1,8.187,False,4174,193,4112,193,62,0,False
+30,emergency,9,replan,True,19,1,25,24,,0,517.413,False,4179,195,4112,193,67,0,False
+30,emergency,10,repair,True,15,1,3,2,L2 priority;yield,9,11.462,False,4541,208,4474,208,67,0,False
+30,emergency,10,replan,True,15,1,23,22,,0,959.579,False,4525,205,4474,208,51,0,False
+30,emergency,11,repair,True,21,1,2,1,L2 priority;yield,5,5.147,False,4199,182,4138,182,61,0,False
+30,emergency,11,replan,True,21,1,30,29,,0,826.945,False,4204,180,4138,182,66,0,False
+30,emergency,12,repair,True,25,1,1,0,L2 priority,2,2.441,False,4632,200,4562,200,70,0,False
+30,emergency,12,replan,True,25,1,21,20,,0,699.942,False,4625,200,4562,200,63,0,False
+30,emergency,13,repair,True,19,1,2,1,L2 priority;yield,6,9.498,False,4035,199,3984,185,51,0,False
+30,emergency,13,replan,True,19,1,24,23,,0,1364.61,False,4050,195,3984,185,66,0,False
+30,emergency,14,repair,True,14,1,1,0,L2 priority,7,3.376,False,4167,234,4096,194,71,0,False
+30,emergency,14,replan,True,14,1,25,24,,0,851.833,False,4170,230,4096,194,74,0,False
+30,emergency,15,repair,True,12,1,2,1,L2 priority;yield,4,40.772,False,4435,223,4349,182,86,0,False
+30,emergency,15,replan,True,12,1,26,25,,0,2061.069,False,4419,218,4349,182,70,0,False
+30,emergency,16,repair,True,14,1,1,0,L2 priority,2,6.11,False,4268,230,4208,204,60,0,False
+30,emergency,16,replan,True,14,1,25,24,,0,798.528,False,4269,220,4208,204,61,0,False
+30,emergency,17,repair,True,16,1,1,0,L2 priority,3,3.458,False,4151,173,4103,173,48,0,False
+30,emergency,17,replan,True,16,1,25,24,,0,286.831,False,4145,175,4103,173,42,0,False
+30,emergency,18,repair,True,14,1,1,0,L2 priority,1,7.821,False,4143,229,4078,172,65,0,False
+30,emergency,18,replan,True,14,1,25,24,,0,3002.18,False,4145,221,4078,172,67,0,False
+30,emergency,19,repair,True,13,1,1,0,L2 priority,2,3.597,False,4331,195,4276,182,55,0,False
+30,emergency,19,replan,True,13,1,21,20,,0,544.118,False,4325,189,4276,182,49,0,False
+30,emergency,20,repair,True,11,1,1,0,L2 priority,3,3.518,False,4098,201,4070,174,28,0,False
+30,emergency,20,replan,True,11,1,30,29,,0,2529.574,False,4102,200,4070,174,32,0,False
+30,emergency,21,repair,True,10,1,1,0,L2 priority,5,8.26,False,4226,178,4160,178,66,0,False
+30,emergency,21,replan,True,10,1,24,23,,0,842.879,False,4227,178,4160,178,67,0,False
+30,emergency,22,repair,True,14,1,4,3,L2 priority;yield;yield+L2,22,121.552,False,4244,183,4176,182,68,0,False
+30,emergency,22,replan,True,14,1,24,23,,0,516.304,False,4248,182,4176,182,72,0,False
+30,emergency,23,repair,True,29,1,1,0,L1 detour,0,1.854,False,4137,171,4125,171,12,0,False
+30,emergency,23,replan,True,29,1,22,21,,0,272.601,False,4135,171,4125,171,10,0,False
+30,emergency,24,repair,True,21,1,2,1,L2 priority;yield,5,8.926,False,4187,208,4119,208,68,0,False
+30,emergency,24,replan,True,21,1,27,26,,0,966.25,False,4162,208,4119,208,43,0,False
+30,emergency,25,repair,True,23,1,2,1,L2 priority;yield,3,6.707,False,4120,207,4095,207,25,0,False
+30,emergency,25,replan,True,23,1,19,18,,0,1263.064,False,4113,204,4095,207,18,0,False
+30,emergency,26,repair,True,10,1,1,0,L2 priority,6,3.27,False,4225,197,4197,197,28,0,False
+30,emergency,26,replan,True,10,1,25,24,,0,517.378,False,4230,197,4197,197,33,0,False
+30,emergency,27,repair,True,13,1,1,0,L2 priority,2,5.376,False,4244,205,4178,205,66,0,False
+30,emergency,27,replan,True,13,1,28,27,,0,364.068,False,4234,200,4178,205,56,0,False
+30,emergency,28,repair,True,17,1,2,1,L2 priority;yield,7,36.766,False,4219,184,4196,184,23,0,False
+30,emergency,28,replan,True,17,1,23,22,,0,308.195,False,4226,184,4196,184,30,0,False
+30,emergency,29,repair,True,30,1,1,0,L2 priority,2,6.919,False,4066,175,4019,175,47,0,False
+30,emergency,29,replan,True,30,1,25,24,,0,425.259,False,4051,174,4019,175,32,0,False
+40,emergency,0,repair,True,24,1,3,2,L2 priority;yield,6,105.329,False,5771,185,5709,185,62,0,False
+40,emergency,0,replan,True,24,1,35,34,,0,1514.622,False,5765,185,5709,185,56,0,False
+40,emergency,1,repair,True,24,1,1,0,L2 priority,2,3.806,False,5533,200,5485,187,48,0,False
+40,emergency,1,replan,True,24,1,40,39,,0,1688.728,False,5536,188,5485,187,51,0,False
+40,emergency,2,repair,True,20,1,1,0,L2 priority,4,8.206,False,5829,205,5779,205,50,0,False
+40,emergency,2,replan,True,20,1,33,32,,0,476.843,False,5814,207,5779,205,35,0,False
+40,emergency,3,repair,True,14,1,2,1,L2 priority;yield,8,12.573,False,5758,239,5678,183,80,0,False
+40,emergency,3,replan,True,14,1,38,37,,0,2860.946,False,5740,221,5678,183,62,0,False
+40,emergency,4,repair,True,25,1,2,1,L2 priority;yield,6,19.177,False,5393,199,5351,195,42,0,False
+40,emergency,4,replan,True,25,1,31,30,,0,1052.528,False,5399,195,5351,195,48,0,False
+40,emergency,5,repair,True,13,1,2,1,L2 priority;yield,6,14.496,False,5841,226,5767,190,74,0,False
+40,emergency,5,replan,True,13,1,38,37,,0,1584.018,False,5834,220,5767,190,67,0,False
+40,emergency,6,repair,True,29,1,2,1,L2 priority;yield,6,7.579,False,5944,203,5891,202,53,0,False
+40,emergency,6,replan,True,29,1,36,35,,0,1131.53,False,5953,202,5891,202,62,0,False
+40,emergency,7,repair,True,25,1,1,0,L1 detour,0,1.707,False,5580,234,5549,203,31,0,False
+40,emergency,7,replan,True,25,1,32,31,,0,2002.968,False,5572,234,5549,203,23,0,False
+40,emergency,8,repair,True,20,1,1,0,L2 priority,3,7.194,False,5763,193,5680,193,83,0,False
+40,emergency,8,replan,True,20,1,33,32,,0,1932.249,False,5737,193,5680,193,57,0,False
+40,emergency,9,repair,True,19,1,1,0,L2 priority,2,4.574,False,5976,234,5898,234,78,0,False
+40,emergency,9,replan,True,19,1,37,36,,0,2249.373,False,5963,232,5898,234,65,0,False
+40,emergency,10,repair,True,15,1,1,0,L2 priority,3,3.926,False,5940,202,5878,202,62,0,False
+40,emergency,10,replan,True,15,1,33,32,,0,567.253,False,5952,202,5878,202,74,0,False
+40,emergency,11,repair,True,21,1,1,0,L2 priority,7,4.702,False,5901,204,5854,204,47,0,False
+40,emergency,11,replan,True,21,1,39,38,,0,1753.509,False,5905,206,5854,204,51,0,False
+40,emergency,12,repair,True,25,1,2,1,L2 priority;yield,3,167.595,False,5919,201,5882,201,37,0,False
+40,emergency,12,replan,True,25,1,40,39,,0,3810.953,False,5908,193,5882,201,26,0,False
+40,emergency,13,repair,True,19,1,1,0,L1 detour,0,2.21,False,5578,223,5503,187,75,0,False
+40,emergency,13,replan,True,19,1,25,24,,0,1228.222,False,5581,222,5503,187,78,0,False
+40,emergency,14,repair,True,14,1,2,1,L2 priority;yield,4,39.186,False,5913,204,5832,182,81,0,False
+40,emergency,14,replan,True,14,1,37,36,,0,1939.36,False,5928,197,5832,182,96,0,False
+40,emergency,15,repair,True,12,1,1,0,L2 priority,4,9.667,False,5827,236,5743,198,84,0,False
+40,emergency,15,replan,True,12,1,40,39,,0,3089.843,False,5795,224,5743,198,52,0,False
+40,emergency,16,repair,True,14,1,1,0,L2 priority,4,6.071,False,5774,225,5706,195,68,0,False
+40,emergency,16,replan,True,14,1,36,35,,0,1962.061,False,5764,219,5706,195,58,0,False
+40,emergency,17,repair,True,16,1,1,0,L2 priority,2,4.209,False,5514,198,5457,198,57,0,False
+40,emergency,17,replan,True,16,1,40,39,,0,1010.407,False,5556,206,5457,198,99,0,False
+40,emergency,18,repair,True,14,1,1,0,L2 priority,2,6.284,False,5530,198,5495,186,35,0,False
+40,emergency,18,replan,True,14,1,34,33,,0,1172.997,False,5549,188,5495,186,54,0,False
+40,emergency,19,repair,True,13,1,1,0,L2 priority,4,8.943,False,5576,209,5516,182,60,0,False
+40,emergency,19,replan,True,13,1,38,37,,0,2169.502,False,5582,195,5516,182,66,0,False
+40,emergency,20,repair,True,11,1,1,0,L2 priority,4,15.614,False,5711,202,5669,202,42,0,False
+40,emergency,20,replan,True,11,1,30,29,,0,675.435,False,5704,202,5669,202,35,0,False
+40,emergency,21,repair,True,10,1,2,1,L2 priority;yield,7,6.279,False,5739,197,5714,197,25,0,False
+40,emergency,21,replan,True,10,1,32,31,,0,742.964,False,5728,197,5714,197,14,0,False
+40,emergency,22,repair,True,14,1,1,0,L2 priority,5,4.364,False,5537,196,5495,180,42,0,False
+40,emergency,22,replan,True,14,1,33,32,,0,1104.196,False,5556,190,5495,180,61,0,False
+40,emergency,23,repair,True,29,1,1,0,L2 priority,2,3.907,False,5633,188,5560,174,73,0,False
+40,emergency,23,replan,True,29,1,37,36,,0,1328.226,False,5640,181,5560,174,80,0,False
+40,emergency,24,repair,True,21,1,1,0,L2 priority,2,89.851,False,5668,183,5647,183,21,0,False
+40,emergency,24,replan,True,21,1,27,26,,0,804.081,False,5689,189,5647,183,42,0,False
+40,emergency,25,repair,True,23,1,1,0,L2 priority,2,4.427,False,5810,210,5732,197,78,0,False
+40,emergency,25,replan,True,23,1,30,29,,0,2105.655,False,5826,201,5732,197,94,0,False
+40,emergency,26,repair,True,10,1,1,0,L1 detour,0,2.214,False,5800,188,5759,188,41,0,False
+40,emergency,26,replan,True,10,1,37,36,,0,1584.094,False,5780,188,5759,188,21,0,False
+40,emergency,27,repair,True,13,1,1,0,L2 priority,3,5.063,False,5643,225,5575,184,68,0,False
+40,emergency,27,replan,True,13,1,40,39,,0,3104.775,False,5623,220,5575,184,48,0,False
+40,emergency,28,repair,True,17,1,2,1,L2 priority;yield,9,51.016,False,6102,235,6028,235,74,0,False
+40,emergency,28,replan,True,17,1,33,32,,0,1357.103,False,6128,237,6028,235,100,0,False
+40,emergency,29,repair,True,30,1,2,1,L2 priority;yield,5,21.025,False,5814,199,5761,196,53,0,False
+40,emergency,29,replan,True,30,1,27,26,,0,1413.709,False,5814,197,5761,196,53,0,False
+50,emergency,0,repair,True,24,1,1,0,L2 priority,1,7.772,False,7021,207,6980,207,41,0,False
+50,emergency,0,replan,True,24,1,36,35,,0,974.077,False,6983,207,6980,207,3,0,False
+50,emergency,1,repair,True,24,1,1,0,L2 priority,3,7.41,False,7285,214,7207,196,78,0,False
+50,emergency,1,replan,True,24,1,49,48,,0,1995.519,False,7286,202,7207,196,79,0,False
+50,emergency,2,repair,True,20,1,1,0,L2 priority,4,92.853,False,7357,208,7352,208,5,0,False
+50,emergency,2,replan,True,20,1,50,49,,0,2241.248,False,7346,220,7352,208,-6,0,False
+50,emergency,3,repair,True,14,1,2,1,L2 priority;yield,7,17.443,False,7524,277,7436,209,88,0,False
+50,emergency,3,replan,True,14,1,48,47,,0,1849.489,False,7505,262,7436,209,69,0,False
+50,emergency,4,repair,True,25,1,1,0,L2 priority,4,9.472,False,7077,202,7018,186,59,0,False
+50,emergency,4,replan,True,25,1,48,47,,0,828.705,False,7040,187,7018,186,22,0,False
+50,emergency,5,repair,True,13,1,1,0,L2 priority,1,7.502,False,7268,210,7194,210,74,0,False
+50,emergency,5,replan,True,13,1,50,49,,0,2485.766,False,7233,212,7194,210,39,0,False
+50,emergency,6,repair,True,29,1,1,0,L2 priority,6,9.326,False,6974,243,6895,173,79,0,False
+50,emergency,6,replan,True,29,1,48,47,,0,964.09,False,6928,220,6895,173,33,0,False
+50,emergency,7,repair,True,25,1,1,0,L2 priority,1,4.301,False,7426,234,7352,190,74,0,False
+50,emergency,7,replan,True,25,1,41,40,,0,2737.732,False,7400,225,7352,190,48,0,False
+50,emergency,8,repair,True,20,1,1,0,L2 priority,1,21.027,False,7255,257,7154,196,101,0,False
+50,emergency,8,replan,True,20,1,50,49,,0,2948.406,False,7290,240,7154,196,136,0,False
+50,emergency,9,repair,True,19,1,2,1,L2 priority;yield,7,8.806,False,6902,190,6874,185,28,0,False
+50,emergency,9,replan,True,19,1,37,36,,0,679.524,False,6921,187,6874,185,47,0,False
+50,emergency,10,repair,True,15,1,3,2,L2 priority;yield,12,19.315,False,7640,198,7562,198,78,0,False
+50,emergency,10,replan,True,15,1,48,47,,0,913.006,False,7619,201,7562,198,57,0,False
+50,emergency,11,repair,True,21,1,1,0,L2 priority,8,3.071,False,7243,210,7203,210,40,0,False
+50,emergency,11,replan,True,21,1,46,45,,0,2169.853,False,7254,210,7203,210,51,0,False
+50,emergency,12,repair,True,25,1,2,1,L2 priority;yield,4,31.432,False,7350,220,7294,204,56,0,False
+50,emergency,12,replan,True,25,1,47,46,,0,2274.799,False,7357,215,7294,204,63,0,False
+50,emergency,13,repair,True,19,1,1,0,L2 priority,3,10.464,False,7218,209,7164,209,54,0,False
+50,emergency,13,replan,True,19,1,50,49,,0,1843.269,False,7258,206,7164,209,94,0,False
+50,emergency,14,repair,True,14,1,1,0,L2 priority,5,6.332,False,7060,230,6994,202,66,0,False
+50,emergency,14,replan,True,14,1,44,43,,0,2795.09,False,7087,219,6994,202,93,0,False
+50,emergency,15,repair,True,12,1,1,0,L2 priority,9,6.108,False,7214,225,7140,213,74,0,False
+50,emergency,15,replan,True,12,1,47,46,,0,2903.839,False,7175,213,7140,213,35,0,False
+50,emergency,16,repair,True,14,1,1,0,L2 priority,2,10.37,False,7111,207,7045,189,66,0,False
+50,emergency,16,replan,True,14,1,33,32,,0,1545.678,False,7098,192,7045,189,53,0,False
+50,emergency,17,repair,True,16,1,2,1,L2 priority;yield,5,29.291,False,7108,200,7083,200,25,0,False
+50,emergency,17,replan,True,16,1,49,48,,0,1473.202,False,7107,198,7083,200,24,0,False
+50,emergency,18,repair,True,14,1,1,0,L2 priority,6,9.794,False,7078,201,7052,201,26,0,False
+50,emergency,18,replan,True,14,1,48,47,,0,933.638,False,7075,197,7052,201,23,0,False
+50,emergency,19,repair,True,13,1,1,0,L2 priority,3,5.373,False,7097,206,7028,206,69,0,False
+50,emergency,19,replan,True,13,1,43,42,,0,723.316,False,7116,206,7028,206,88,0,False
+50,emergency,20,repair,True,11,1,2,1,L2 priority;yield,4,23.785,False,7325,217,7266,217,59,0,False
+50,emergency,20,replan,True,11,1,47,46,,0,1222.359,False,7319,213,7266,217,53,0,False
+50,emergency,21,repair,True,10,1,1,0,L2 priority,2,10.131,False,7161,224,7144,224,17,0,False
+50,emergency,21,replan,True,10,1,38,37,,0,1190.945,False,7156,226,7144,224,12,0,False
+50,emergency,22,repair,True,14,1,4,3,L2 priority;yield;yield+L2,18,17.652,False,7543,208,7461,208,82,0,False
+50,emergency,22,replan,True,14,1,47,46,,0,1937.37,False,7515,216,7461,208,54,0,False
+50,emergency,23,repair,True,29,1,1,0,L2 priority,4,4.622,False,7158,202,7121,202,37,0,False
+50,emergency,23,replan,True,29,1,50,49,,0,1279.131,False,7176,199,7121,202,55,0,False
+50,emergency,24,repair,True,21,1,3,2,L2 priority;yield,10,39.343,False,7098,202,7047,202,51,0,False
+50,emergency,24,replan,True,21,1,41,40,,0,2445.713,False,7101,208,7047,202,54,0,False
+50,emergency,25,repair,True,23,1,1,0,L2 priority,4,10.651,False,6679,224,6604,194,75,0,False
+50,emergency,25,replan,True,23,1,38,37,,0,2540.662,False,6691,217,6604,194,87,0,False
+50,emergency,26,repair,True,10,1,1,0,L2 priority,4,6.586,False,7137,222,7068,222,69,0,False
+50,emergency,26,replan,True,10,1,50,49,,0,2198.933,False,7137,216,7068,222,69,0,False
+50,emergency,27,repair,True,13,1,3,2,L2 priority;yield,10,18.639,False,7334,198,7287,197,47,0,False
+50,emergency,27,replan,True,13,1,42,41,,0,1242.448,False,7345,197,7287,197,58,0,False
+50,emergency,28,repair,True,17,1,2,1,L2 priority;yield,5,18.005,False,7069,230,6996,181,73,0,False
+50,emergency,28,replan,True,17,1,46,45,,0,2887.083,False,7056,218,6996,181,60,0,False
+50,emergency,29,repair,True,30,1,1,0,L2 priority,4,15.536,False,7602,205,7592,205,10,0,False
+50,emergency,29,replan,True,30,1,43,42,,0,812.138,False,7618,210,7592,205,26,0,False
